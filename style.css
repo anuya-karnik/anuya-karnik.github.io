@@ -1,86 +1,152 @@
+/* CSS HEX */
+
 body {
     font-family: Arial, Helvetica, sans-serif;
-}
-* {
-    box-sizing: border-box;
-    border: 1px solid black;
+    margin: 0;
 }
 
-h1 {
-    font-size: 24px;
+* {
+    box-sizing: border-box;
+    /* border: 1px solid black; */
+    /*Website Color Palette*/
+    --imperial-red: #f02d3aff;
+    --midnight-blue: #001d74ff;
+    --cornflower-blue: #7f95d1ff;
+    --light-gray: #cfcfcfff;
+    --davys-grey: #474a48ff;
 }
+
+
+/*--------------------------------*/
+
+
+/* BASIC ELEMENTS STYLE */
+
+
+/*--------------------------------*/
 
 h2 {
     font-size: 20px;
 }
 
 h3 {
-    font-size: 16px;
-}
-.skip {
-  background: white;
-  left: 0;
-  padding: 6px;
-  position: absolute;
-  top: -40px;
-  -webkit-transition: top 1s ease-out;
-  transition: top 1s ease-out;
-  z-index: 1;
+    font-size: 18px;
 }
 
-.skip:focus{
-    top:20px;
-    color: black;
-    text-decoration-style: solid;
+.skip a {
+    background-color: white;
+    padding: 10px;
+    position: absolute;
+    top: -50px;
+    z-index: 1;
 }
 
-nav {
+.skip a:focus {
+    position: absolute;
+    top: 10px;
+}
+
+.headline {
+    margin: 10px;
+    padding: 10px;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+
+/*--------------------------------*/
+
+
+/* NAV BAR STYLING */
+
+
+/*--------------------------------*/
+
+header {
+    background-color: var(--light-gray);
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 0px 0px;
 }
 
-.menu-title > a {
-    font-size: 36px;
-    top: 30px;
+.menu-title {
+    margin-top: 20px;
+}
+
+.menu-title a {
+    font-size: 30px;
     font-weight: bolder;
     text-decoration: none;
+    color: var(--midnight-blue);
 }
+
+.menu-title a:visited {
+    color: var(--midnight-blue);
+}
+
+
+/* nav {
+    width: 100%;
+} */
+
+
+/*Change this to ul??*/
 
 .menu-links {
+    list-style: none;
     display: flex;
-    width: 100%;
     flex-direction: row;
-    justify-content: space-evenly;
-    text-align: center;
+    width: 100%;
+    justify-content: space-between;
 }
 
-.menu-links > a {
-    font-size: 24px;
-    /* padding: 30px; */
+.menu-links a {
+    padding: 20px;
+    font-size: 16px;
+    text-decoration: none;
+    color: var(--midnight-blue);
 }
+
+.menu-links a:visited {
+    color: var(--midnight-blue);
+}
+
+
+/* -------------------------------- */
+
+
+/* STYLING FOR HOMEPAGE PAGE GRID */
+
+
+/*--------------------------------*/
 
 .grid-container {
     display: grid;
     grid-template-columns: 1fr;
-    row-gap: 80px;
+    row-gap: 50px;
+    margin: 10px;
 }
 
 .grid-item {
     box-sizing: border-box;
-    /* padding: 10px; */
     min-height: 250px;
     max-height: fit-content;
     width: auto;
-
     /* border: 1px solid black; */
     border-radius: 10px;
     text-align: center;
-    box-shadow: 0px 5px 20px 2px rgba(180, 180, 180, 0.301);
+    box-shadow: 2px 5px 20px 2px rgba(180, 180, 180, 0.89);
+}
+
+.grid-item:hover {
+    box-shadow: 2px 5px 20px 2px rgba(175, 203, 255, 0.89);
+    ;
 }
 
 img {
     width: 100%;
+    border-radius: 10px 10px 0px 0px;
 }
 
 footer {
