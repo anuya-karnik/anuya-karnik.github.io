@@ -174,7 +174,7 @@ footer p {
 
 /*--------------------------------*/
 
-@media screen and (min-width: 750px) {
+@media screen and (min-width: 641px) {
     .headline {
         margin: 20px 50px;
         padding: 10px;
