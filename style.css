@@ -111,8 +111,10 @@ header {
     color: var(--midnight-blue);
 }
 
-.menu-links a:visited {
-    color: var(--midnight-blue);
+.menu-links a:hover {
+    background-color: var(--midnight-blue);
+    color: var(--light-gray);
+    text-decoration: underline solid 1px;
 }
 
 
@@ -225,8 +227,10 @@ footer p {
         text-decoration: none;
         color: var(--midnight-blue);
     }
-    .menu-links a:visited {
-        color: var(--midnight-blue);
+    .menu-links a:hover {
+        background-color: var(--midnight-blue);
+        color: var(--light-gray);
+        text-decoration: underline solid 1px;
     }
     /* -------------------------------- */
     /* STYLING FOR HOMEPAGE PAGE GRID */
