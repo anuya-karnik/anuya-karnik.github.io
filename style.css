@@ -52,7 +52,7 @@ h3 {
     margin: 10px;
     padding: 10px;
     font-size: 18px;
-    font-weight: 500;
+    font-weight: 300;
     line-height: 40px;
 }
 
@@ -163,4 +163,97 @@ footer {
 
 footer p {
     font-weight: 500;
+}
+
+
+/* -------------------------------- */
+
+
+/* Larger Screen Size */
+
+
+/*--------------------------------*/
+
+@media screen and (min-width: 750px) {
+    .headline {
+        margin: 20px 50px;
+        padding: 10px;
+        font-size: 20px;
+        font-weight: 300;
+        line-height: 40px;
+    }
+    /*--------------------------------*/
+    /* NAV BAR STYLING */
+    /*--------------------------------*/
+    header {
+        background-color: var(--light-gray);
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0px 0px;
+    }
+    .menu-title {
+        margin: 0px;
+        padding-left: 40px;
+    }
+    .menu-title a {
+        padding-left: 20px;
+        font-size: 20px;
+        font-weight: bolder;
+        text-decoration: none;
+        color: var(--midnight-blue);
+    }
+    .menu-title a:visited {
+        color: var(--midnight-blue);
+    }
+    /* nav {
+    width: 100%;
+} */
+    /*Change this to ul??*/
+    .menu-links {
+        list-style: none;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        width: fit-content;
+        padding-right: 40px;
+    }
+    .menu-links a {
+        /* padding: 20px; */
+        font-size: 16px;
+        text-decoration: none;
+        color: var(--midnight-blue);
+    }
+    .menu-links a:visited {
+        color: var(--midnight-blue);
+    }
+    /* -------------------------------- */
+    /* STYLING FOR HOMEPAGE PAGE GRID */
+    /*--------------------------------*/
+    .grid-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        row-gap: 50px;
+        column-gap: 25px;
+        margin: 10px 50px;
+    }
+    .grid-item {
+        box-sizing: border-box;
+        min-height: 250px;
+        max-height: fit-content;
+        width: auto;
+        /* border: 1px solid black; */
+        border-radius: 10px;
+        text-align: center;
+        box-shadow: 2px 5px 20px 2px rgba(180, 180, 180, 0.89);
+    }
+    .grid-item:hover {
+        box-shadow: 2px 5px 20px 2px rgba(175, 203, 255, 0.89);
+        ;
+    }
+    img {
+        width: 100%;
+        border-radius: 10px 10px 0px 0px;
+    }
 }
