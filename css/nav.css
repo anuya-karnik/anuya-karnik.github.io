@@ -36,7 +36,7 @@ header {
     display: flex;
     width: 100%;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .menu-links a {
@@ -49,7 +49,7 @@ header {
 .menu-links a:hover {
     background-color: var(--midnight-blue);
     color: var(--light-gray);
-    text-decoration: underline solid 1px;
+    text-decoration: underline solid 2px;
 }
 
 @media screen and (min-width: 641px) {
@@ -88,7 +88,7 @@ header {
         padding-right: 40px;
     }
     .menu-links a {
-        /* padding: 20px; */
+        padding: 20px 10px;
         font-size: 16px;
         text-decoration: none;
         color: var(--midnight-blue);
@@ -96,6 +96,6 @@ header {
     .menu-links a:hover {
         background-color: var(--midnight-blue);
         color: var(--light-gray);
-        text-decoration: underline solid 1px;
+        text-decoration: underline solid 2px;
     }
 }

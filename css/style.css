@@ -15,22 +15,16 @@ body {
 }
 
 
-/*--------------------------------*/
-
-
 /* BASIC ELEMENTS STYLE */
 
-
-/*--------------------------------*/
-
-h2 {
+.grid-item h2 {
     padding: 5px 10px;
     font-size: 18px;
     line-height: 32px;
     font-weight: 500;
 }
 
-h3 {
+.grid-item h3 {
     padding: 5px 10px;
     font-size: 14px;
     line-height: 26px;
@@ -56,6 +50,19 @@ h3 {
     font-size: 14px;
     font-weight: 500;
     line-height: 26px;
+}
+
+
+/*Requirement 10: Parallax Image
+Needs a different Image - Portrait*/
+
+.parallax {
+    background-image: url('../images/Sample-Image.png');
+    min-height: 200px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 
