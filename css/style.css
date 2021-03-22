@@ -15,20 +15,81 @@ body {
 }
 
 
-/* BASIC ELEMENTS STYLE */
+/* BASIC ELEMENTS STYLE - BASE STYLE */
 
-.grid-item h2 {
+h1 {
+    padding: 5px 10px;
+    font-size: 30px;
+    line-height: 45px;
+    font-weight: 500;
+}
+
+h2 {
+    padding: 5px 10px;
+    font-size: 24px;
+    line-height: 40px;
+    font-weight: 500;
+}
+
+h3 {
+    padding: 5px 10px;
+    font-size: 22px;
+    line-height: 40px;
+    font-weight: 300;
+}
+
+h4 {
+    padding: 5px 10px;
+    font-size: 20px;
+    line-height: 45px;
+    font-weight: 500;
+}
+
+h5 {
     padding: 5px 10px;
     font-size: 18px;
     line-height: 32px;
     font-weight: 500;
 }
 
-.grid-item h3 {
+h6 {
     padding: 5px 10px;
     font-size: 14px;
     line-height: 26px;
     font-weight: 300;
+}
+
+p {
+    padding: 5px 15px;
+    font-size: 12px;
+    line-height: 26px;
+    font-weight: 500;
+}
+
+.project-section-a {
+    margin: 5px 0px;
+    padding: 20px;
+    background-color: var(--light-gray);
+}
+
+.project-section-a {
+    margin: 5px 0px;
+    padding: 20px;
+    /* background-color: var(--light-gray); */
+}
+
+.project-image {
+    margin: 10px 15px;
+    padding-bottom: 12px;
+}
+
+.project-image>figure>img {
+    width: 100%;
+}
+
+figcaption {
+    font-size: 12px;
+    text-align: center;
 }
 
 .skip a {
@@ -74,7 +135,7 @@ Needs a different Image - Portrait*/
 
 /*--------------------------------*/
 
-.grid-container {
+.grid-container-home {
     display: grid;
     grid-template-columns: 1fr;
     row-gap: 20px;
@@ -94,10 +155,9 @@ Needs a different Image - Portrait*/
 
 .grid-item:hover {
     box-shadow: 2px 5px 20px 2px rgba(175, 203, 255, 0.89);
-    ;
 }
 
-img {
+.grid-item>img {
     width: 100%;
     border-radius: 10px 10px 0px 0px;
 }
@@ -146,7 +206,7 @@ footer p {
     /* -------------------------------- */
     /* STYLING FOR HOMEPAGE PAGE GRID */
     /*--------------------------------*/
-    .grid-container {
+    .grid-container-home {
         display: grid;
         grid-template-columns: 1fr 1fr;
         row-gap: 50px;
@@ -167,7 +227,7 @@ footer p {
         box-shadow: 2px 5px 20px 2px rgba(175, 203, 255, 0.89);
         ;
     }
-    img {
+    .grid-item>img {
         width: 100%;
         border-radius: 10px 10px 0px 0px;
     }
