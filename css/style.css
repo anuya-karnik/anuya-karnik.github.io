@@ -72,12 +72,6 @@ p {
     padding: 20px;
 }
 
-.project-section {
-    margin: 5px 0px;
-    padding: 20px;
-    /* background-color: var(--light-gray); */
-}
-
 .color-a {
     background-color: var(--light-gray);
 }
@@ -94,6 +88,7 @@ p {
 figcaption {
     font-size: 12px;
     text-align: center;
+    padding-top: 10px;
 }
 
 .skip a {
@@ -131,6 +126,36 @@ Needs a different Image - Portrait*/
 }
 
 
+/* 9-Image Gallery
+*/
+
+.image-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 10px 10px;
+}
+
+.img-item {
+    /* border: black solid 1px; */
+    margin: 2px 2px;
+    align-content: center;
+}
+
+.large-img {
+    grid-column: 1 / span 3;
+    grid-row: 1 / span 2;
+}
+
+.med-img {
+    grid-column: 2/ span 2;
+    grid-row: 4 / span 2;
+}
+
+.img-item>img {
+    width: 100%;
+}
+
+
 /* -------------------------------- */
 
 
@@ -148,6 +173,7 @@ Needs a different Image - Portrait*/
 
 .grid-item {
     box-sizing: border-box;
+    position: relative;
     min-height: 250px;
     max-height: fit-content;
     padding-bottom: 10px;
@@ -164,6 +190,16 @@ Needs a different Image - Portrait*/
 .grid-item>img {
     width: 100%;
     border-radius: 10px 10px 0px 0px;
+}
+
+.link {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    /* background-color: rgba(255, 255, 255, 0.404); */
 }
 
 
