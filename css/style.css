@@ -64,18 +64,22 @@ p {
     font-size: 12px;
     line-height: 26px;
     font-weight: 500;
+    color: var(--davys-grey);
 }
 
-.project-section-a {
+.project-section {
     margin: 5px 0px;
     padding: 20px;
-    background-color: var(--light-gray);
 }
 
-.project-section-a {
+.project-section {
     margin: 5px 0px;
     padding: 20px;
     /* background-color: var(--light-gray); */
+}
+
+.color-a {
+    background-color: var(--light-gray);
 }
 
 .project-image {
