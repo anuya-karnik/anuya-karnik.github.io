@@ -46,6 +46,7 @@ h4 {
 }
 
 h5 {
+    color: var(--davys-grey);
     padding: 5px 10px;
     font-size: 18px;
     line-height: 32px;
@@ -78,7 +79,6 @@ p {
 
 .project-image {
     margin: 10px 15px;
-    padding-bottom: 12px;
 }
 
 .project-image>figure>img {
@@ -108,7 +108,7 @@ figcaption {
     margin: 10px;
     padding: 10px;
     font-size: 14px;
-    font-weight: 500;
+    font-weight: 300;
     line-height: 26px;
 }
 
@@ -164,7 +164,7 @@ Needs a different Image - Portrait*/
 
 /*--------------------------------*/
 
-.grid-container-home {
+.grid-container-1 {
     display: grid;
     grid-template-columns: 1fr;
     row-gap: 20px;
@@ -200,6 +200,34 @@ Needs a different Image - Portrait*/
     left: 0;
     z-index: 1;
     /* background-color: rgba(255, 255, 255, 0.404); */
+}
+
+.grid-item>.circle-crop {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+    padding: 20px 20px;
+}
+
+.grid-item-1>img {
+    width: 30%;
+}
+
+.logo-image {
+    margin-top: 20px;
+}
+
+.grid-container-2 {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    border: 1px solid blue;
+    margin: 10px;
+}
+
+.grid-item-2>img {
+    width: 100%;
+    vertical-align: middle;
 }
 
 
