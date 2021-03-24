@@ -61,14 +61,17 @@ h6 {
 }
 
 p {
-    padding: 5px 15px;
+    padding: 5px 10px;
     font-size: 12px;
     line-height: 26px;
     font-weight: 500;
     color: var(--davys-grey);
 }
 
-.project-section {
+
+/*Plain Project Section - Alternating between grey and white*/
+
+.layout-section {
     margin: 5px 0px;
     padding: 20px;
 }
@@ -77,11 +80,11 @@ p {
     background-color: var(--light-gray);
 }
 
-.project-image {
+.layout-image {
     margin: 10px 15px;
 }
 
-.project-image>figure>img {
+.layout-image>figure>img {
     width: 100%;
 }
 
@@ -89,6 +92,26 @@ figcaption {
     font-size: 12px;
     text-align: center;
     padding-top: 10px;
+}
+
+#about-section {
+    text-align: center;
+}
+
+.circle-crop {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    /* padding: 20px 20px; */
+    box-shadow: 2px 5px 20px 2px rgba(190, 190, 190, 0.89);
+}
+
+#edu-1 {
+    width: 60%;
 }
 
 .skip a {
@@ -200,14 +223,6 @@ Needs a different Image - Portrait*/
     left: 0;
     z-index: 1;
     /* background-color: rgba(255, 255, 255, 0.404); */
-}
-
-.grid-item>.circle-crop {
-    width: 200px;
-    height: 200px;
-    object-fit: cover;
-    border-radius: 50%;
-    padding: 20px 20px;
 }
 
 .grid-item-1>img {
