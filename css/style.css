@@ -241,6 +241,13 @@ Needs a different Image - Portrait*/
     border-radius: 10px 10px 0px 0px;
 }
 
+
+/*Remove When Projects are Complete*/
+
+.grid-item>.wip {
+    filter: grayscale(75%);
+}
+
 .link {
     position: absolute;
     width: 100%;
@@ -332,7 +339,6 @@ footer p {
     }
     .grid-item:hover {
         box-shadow: 2px 5px 20px 2px rgba(175, 203, 255, 0.89);
-        ;
     }
     .grid-item>img {
         width: 100%;
