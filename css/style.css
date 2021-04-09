@@ -120,6 +120,9 @@ figcaption {
     padding-bottom: 15px;
 }
 
+
+/*About Section*/
+
 #about-section {
     text-align: center;
 }
@@ -241,12 +244,6 @@ Needs a different Image - Portrait*/
     border-radius: 10px 10px 0px 0px;
 }
 
-
-/*Remove When Projects are Complete*/
-
-.grid-item>.wip {
-    filter: grayscale(75%);
-}
 
 .link {
     position: absolute;
