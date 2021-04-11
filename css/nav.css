@@ -52,6 +52,10 @@ header {
     text-decoration: underline solid 2px;
 }
 
+.menu-links .current {
+    text-decoration: underline solid 2px var(--midnight-blue);
+}
+
 @media screen and (min-width: 641px) {
     header {
         background-color: var(--light-gray);
