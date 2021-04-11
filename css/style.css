@@ -80,6 +80,13 @@ li {
     padding: 2px 0px;
 }
 
+label {
+    padding: 5px 0px;
+    font-size: 14px;
+    line-height: 26px;
+    font-weight: 500;
+    color: midnightblue;
+}
 
 /*Plain Project Section - Alternating between grey and white*/
 
@@ -153,8 +160,52 @@ figcaption {
 .large {
     grid-column: span 4;
 }
+/* -------------------------------- */
+/* CONTACT FORM */
+/*--------------------------------*/
+input[type=text], input[type=email], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 0;
+    border-radius: 4px;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    box-shadow: 2px 2px 5px 2px rgba(180, 180, 180, 0.89);
 
-/*About Section*/
+  }
+
+  textarea {
+      resize: vertical;
+      height: 200px;
+  }
+
+  input::placeholder, textarea::placeholder {
+      color: rgb(184, 184, 184);
+      font-family: 'Poppins', Arial, sans-serif;
+  }
+
+  input[type=submit] {
+    margin-right: auto;
+    background-color: var(--midnight-blue);
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  input[type=submit]:hover {
+      background-color: var(--cornflower-blue);
+  }
+
+  .contact-form {
+    border-radius: 5px;
+    padding: 20px;
+  }
+
+/* -------------------------------- */
+/* ABOUT SECTION */
+/*--------------------------------*/
 
 #about-section {
     text-align: center;
@@ -199,7 +250,8 @@ figcaption {
 
 
 /*Requirement 10: Parallax Image
-Needs a different Image - Portrait*/
+Needs a different Image - Portrait
+Currently Done Using a Library - Switch to CSS if necessary*/
 
 .parallax {
     /* background-image: url('../images/Sample-Image.png');
@@ -221,7 +273,6 @@ Needs a different Image - Portrait*/
 
 /* -------------------------------- */
 /* STYLING FOR HOMEPAGE PAGE GRID */
-
 /*--------------------------------*/
 
 .grid-layout-1 {
@@ -283,11 +334,7 @@ Needs a different Image - Portrait*/
 
 
 /* -------------------------------- */
-
-
 /* FOOTER STYLING */
-
-
 /*--------------------------------*/
 
 footer {
@@ -308,10 +355,7 @@ footer p {
 
 /* -------------------------------- */
 
-
 /* Larger Screen Size */
-
-
 /*--------------------------------*/
 
 @media screen and (min-width: 641px) {
