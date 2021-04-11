@@ -113,6 +113,10 @@ li {
     width: 100%;
 }
 
+.layout-video {
+    margin: 10px 15px;
+}
+
 figcaption {
     font-size: 12px;
     text-align: center;
@@ -120,6 +124,35 @@ figcaption {
     padding-bottom: 15px;
 }
 
+/*Visual Design Image Grid*/
+
+.vdes-grid {
+    margin: 10px;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    column-gap: 10px;
+    row-gap: 10px;
+}
+.vdes-item>img {
+    max-width:100%;
+}
+
+.vdes-item-1 {
+    grid-column: span 2;
+    display: grid;
+}
+
+.col3 {
+    grid-column: span 3;
+}
+
+.col2 {
+    grid-column: span 2;
+}
+
+.large {
+    grid-column: span 4;
+}
 
 /*About Section*/
 
@@ -169,54 +202,29 @@ figcaption {
 Needs a different Image - Portrait*/
 
 .parallax {
-    background-image: url('../images/Sample-Image.png');
+    /* background-image: url('../images/Sample-Image.png');
     min-height: 200px;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
-}
-
-
-/* 9-Image Gallery
-*/
-
-.image-grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    margin: 10px 10px;
-}
-
-.img-item {
-    /* border: black solid 1px; */
-    margin: 2px 2px;
-    align-content: center;
-}
-
-.large-img {
-    grid-column: 1 / span 3;
-    grid-row: 1 / span 2;
-}
-
-.med-img {
-    grid-column: 2/ span 2;
-    grid-row: 4 / span 2;
-}
-
-.img-item>img {
+    background-size: cover; */
     width: 100%;
 }
 
 
+
+/* Only for white images over white background */
+.white-bg {
+    box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.3);
+}
+
+
 /* -------------------------------- */
-
-
 /* STYLING FOR HOMEPAGE PAGE GRID */
-
 
 /*--------------------------------*/
 
-.grid-container-1 {
+.grid-layout-1 {
     display: grid;
     grid-template-columns: 1fr;
     row-gap: 20px;
