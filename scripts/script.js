@@ -6,3 +6,6 @@ new simpleParallax(images, {
     delay: 0.3,
     scale: 1.125
 });
+
+
+//Storing Form Data in Firebase
