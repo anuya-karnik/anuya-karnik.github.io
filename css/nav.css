@@ -47,10 +47,9 @@ header {
 }
 
 .menu-links .current {
-    border-style: border-box;
-    border: 2px solid midnightblue;
+    text-transform: uppercase;
     font-weight: 700;
-    text-decoration: underline solid 1px var(--midnight-blue);
+    text-decoration: underline solid 2px var(--midnight-blue);
 }
 
 @media screen and (min-width: 641px) {
