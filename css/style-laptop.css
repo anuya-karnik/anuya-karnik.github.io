@@ -1,0 +1,17 @@
+/* -------------------------------- */
+/* WELCOME TO LAPTOP VIEW
+/* MIN-WIDTH 1024 PX */
+/* PLACE AFTER DEFAULT STYLE.CSS */
+/*--------------------------------*/
+
+@media screen and (min-width: 1024px) {
+
+    /* -------------------------------- */
+    /* STYLING FOR HOMEPAGE PAGE GRID  */
+    /*--------------------------------*/
+
+    .grid-layout-1 {
+        grid-template-columns: 1fr 1fr;
+        row-gap: 40px;
+    }
+}

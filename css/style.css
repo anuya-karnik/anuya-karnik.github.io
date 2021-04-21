@@ -94,6 +94,19 @@ label {
     color: midnightblue;
 }
 
+.skip a {
+    background-color: white;
+    padding: 10px;
+    position: absolute;
+    top: -50px;
+    z-index: 1;
+}
+
+.skip a:focus {
+    position: absolute;
+    top: 10px;
+}
+
 /*---------------------------------------------*/
 /* PROJECT TEXT AND IMAGE SECTIONS
    ALTERNATE BETWEEN WHITE AND MIDNIGHT BLUE */
@@ -257,19 +270,6 @@ input[type=text], input[type=email], select, textarea {
     margin: 20px;
 }
 
-.skip a {
-    background-color: white;
-    padding: 10px;
-    position: absolute;
-    top: -50px;
-    z-index: 1;
-}
-
-.skip a:focus {
-    position: absolute;
-    top: 10px;
-}
-
 .about-page h2 {
     color: var(--davys-grey);
     padding: 5px 10px;
@@ -312,7 +312,6 @@ input[type=text], input[type=email], select, textarea {
     line-height: 45px;
     font-weight: 500;
 }
-
 
 .headline {
     margin: 10px;

@@ -126,6 +126,7 @@ https://www.freecodecamp.org/news/css-media-queries-breakpoints-media-types-stan
     .contact-form {
         padding: 20px 50px;
     }
+    
     input[type=submit] {
         display: block;
         width: 50%;
@@ -140,7 +141,20 @@ https://www.freecodecamp.org/news/css-media-queries-breakpoints-media-types-stan
     }
 
     /* -------------------------------- */
-    /* FLIP CARDS */
+    /* ABOUT PAGE */
     /*--------------------------------*/
 
+    .circle-crop {
+        width: 200px;
+        height: 200px;
+    }
+
+    .about-page h1 {
+        font-size: 24px;
+        padding-top: 20px;
+    }
+
+    .about-page h2 {
+        font-size: 18px;
+    }
 }
