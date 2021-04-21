@@ -2,6 +2,10 @@ body {
     font-family: 'Poppins', 'Arial', sans-serif;
     margin: 0;
 }
+/*--------------------------------*/
+/* MY BEAUTIFUL COLOR PALETTE */
+/* Generated Using coolors.co */
+/*--------------------------------*/
 
 * {
     box-sizing: border-box;
@@ -14,12 +18,13 @@ body {
     --davys-grey: #474a48ff;
 }
 
-
+/*--------------------------------*/
 /* BASIC ELEMENTS STYLE - BASE STYLE */
+/*--------------------------------*/
 
 h1 {
     padding: 5px 10px;
-    font-size: 30px;
+    font-size: 26px;
     line-height: 45px;
     font-weight: 500;
 }
@@ -89,7 +94,10 @@ label {
     color: midnightblue;
 }
 
-/*Plain Project Section - Alternating between grey and white*/
+/*---------------------------------------------*/
+/* PROJECT TEXT AND IMAGE SECTIONS
+   ALTERNATE BETWEEN WHITE AND MIDNIGHT BLUE */
+/*------------------------------------------*/
 
 .layout-section {
     margin: 0px 0px;
@@ -131,22 +139,14 @@ figcaption {
     padding-top: 5px;
     padding-bottom: 15px;
 }
-
-/* Button to Turn off Parallax for Accessibility*/
-
-#removeparallax {
-    background-color: grey;
-    border: none;
-    margin: 10px;
-    color: white;
-    padding: 10px;
-}
-
-#removeparallax:hover {
-    background-color: var(--cornflower-blue);
+/*-----------------------------------------------*/
+/* CLASS FOR WHITE IMAGES OVER WHITE BACKGROUND */
+/*---------------------------------------------*/
+.white-bg {
+    box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.3);
 }
 /* -------------------------------- */
-/*Visual Design Image Grid*/
+/*VISUAL DESIGN PROJECT - IMAGE GRID*/
 /* -------------------------------- */
 
 .vdes-grid {
@@ -211,9 +211,11 @@ input[type=text], input[type=email], select, textarea {
   }
 
   input[type=submit] {
+    width: 100%;
+    height: 50px;
     background-color: var(--midnight-blue);
     color: white;
-    padding: 12px 20px;
+    padding: 12px 40px;
     border: none;
     border-radius: 4px;
     cursor: pointer;
@@ -224,6 +226,7 @@ input[type=text], input[type=email], select, textarea {
   }
 
   .contact-form {
+    display: flex;
     border-radius: 5px;
     padding: 20px;
   }
@@ -246,7 +249,6 @@ input[type=text], input[type=email], select, textarea {
     height: 150px;
     object-fit: cover;
     border-radius: 50%;
-    /* padding: 20px 20px; */
     box-shadow: 2px 5px 20px 2px rgba(190, 190, 190, 0.89);
 }
 
@@ -276,6 +278,18 @@ input[type=text], input[type=email], select, textarea {
     font-weight: 500;
 }
 
+.about-item {
+    box-sizing: border-box;
+    position: relative;
+    min-height: 250px;
+    max-height: fit-content;
+    padding-bottom: 10px;
+    width: auto;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 2px 5px 20px 2px rgba(180, 180, 180, 0.89);
+}
+
 .about-item h3 {
     color: black;
     padding: 5px 10px;
@@ -292,6 +306,14 @@ input[type=text], input[type=email], select, textarea {
     font-weight: 500;
 }
 
+.about-page h1 {
+    padding: 5px 10px;
+    font-size: 20px;
+    line-height: 45px;
+    font-weight: 500;
+}
+
+
 .headline {
     margin: 10px;
     padding: 10px;
@@ -300,10 +322,9 @@ input[type=text], input[type=email], select, textarea {
     line-height: 32px;
 }
 
-
-/*Requirement 10: Parallax Image
-Needs a different Image - Portrait
-Currently Done Using a Library - Switch to CSS if necessary*/
+/*--------------------------------*/
+/*PARALLAX IMAGE
+/*--------------------------------*/
 
 .full-image {
     width: 100%;
@@ -317,13 +338,6 @@ Currently Done Using a Library - Switch to CSS if necessary*/
     background-repeat: no-repeat;
     background-size: 150%;
 }
-
-
-/* Only for white images over white background */
-.white-bg {
-    box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.3);
-}
-
 
 /* -------------------------------- */
 /* STYLING FOR HOMEPAGE PAGE GRID */
@@ -371,24 +385,6 @@ Currently Done Using a Library - Switch to CSS if necessary*/
     font-weight: 300;
 }
 
-.about-page h1 {
-    padding: 5px 10px;
-    font-size: 20px;
-    line-height: 45px;
-    font-weight: 500;
-}
-.about-item {
-    box-sizing: border-box;
-    position: relative;
-    min-height: 250px;
-    max-height: fit-content;
-    padding-bottom: 10px;
-    width: auto;
-    border-radius: 10px;
-    text-align: center;
-    box-shadow: 2px 5px 20px 2px rgba(180, 180, 180, 0.89);
-}
-
 
 .grid-item:hover {
     box-shadow: 2px 5px 20px 2px rgba(175, 203, 255, 0.89);
@@ -417,12 +413,6 @@ Currently Done Using a Library - Switch to CSS if necessary*/
 .logo-image {
     margin-top: 20px;
 }
-
-.grid-item-2>img {
-    width: 100%;
-    vertical-align: middle;
-}
-
 
 /* -------------------------------- */
 /* FOOTER STYLING */
@@ -500,9 +490,6 @@ footer p {
 }
 
 .card-back {
-    flex-wrap: wrap;
-    justify-content: center;
-    position: absolute;
     width: 100%;
     height: 100%;
     backface-visibility: hidden;

@@ -23,8 +23,6 @@ header {
     color: var(--midnight-blue);
 }
 
-/*Change this to ul??*/
-
 .menu-links {
     list-style: none;
     display: flex;
@@ -52,7 +50,7 @@ header {
     text-decoration: underline solid 2px var(--midnight-blue);
 }
 
-@media screen and (min-width: 641px) {
+@media screen and (min-width: 630px) {
     header {
         background-color: var(--light-gray);
         display: flex;
@@ -63,7 +61,7 @@ header {
     }
     .menu-title {
         margin: 0px;
-        padding-left: 40px;
+        padding-left: 25px;
     }
     .menu-title a {
         padding-left: 20px;
