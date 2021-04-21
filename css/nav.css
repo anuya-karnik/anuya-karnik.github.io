@@ -105,8 +105,12 @@ header {
 }
 
 @media screen and (min-width: 1024px) {
+    .menu-title {
+        margin-left: 45px;
+    }
+
     .menu-links {
-        padding: 15px 40px;
+        margin-right: 45px;
     }
 
 }
