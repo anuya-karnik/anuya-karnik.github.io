@@ -96,6 +96,14 @@ https://www.freecodecamp.org/news/css-media-queries-breakpoints-media-types-stan
     }
 
     /* -------------------------------- */
+    /* VISUAL DESIGN PROJECT GRID  */
+    /*--------------------------------*/
+
+    .vdes-grid {
+        margin: 10px 50px;
+    }
+
+    /* -------------------------------- */
     /* FLIP CARDS */
     /*--------------------------------*/
     .cards-layout {

@@ -201,8 +201,19 @@ figcaption {
     grid-column: span 2;
     display: grid;
 }
+
+.vdes-item>img:hover {
+    max-width:101%;
+    transition: 0.6s;
+}
+
 .vdes-item-2>img {
     max-width: 100%;
+}
+
+.vdes-item-2>img:hover {
+    max-width:101%;
+    transition: 0.6s;
 }
 .vdes-align-item {
     position: relative;
@@ -473,6 +484,35 @@ footer p {
     margin: 10px 0px;
     width: 100%;
 }
+
+
+
+.gal-element {
+    position: relative;
+}
+
+.gal-caption {
+    display: flex;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1;
+
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75) );
+    opacity: 100%;
+}
+
+.gal-caption p {
+    position: absolute;
+    left: 10px;
+    bottom: 10px;
+    color: white;
+}
+
+
+
 
 /* -------------------------------- */
 /* FLIP CARD ANIMATION */

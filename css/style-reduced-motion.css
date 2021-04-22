@@ -20,4 +20,14 @@
         display: none;
     }
 
+    /* Remove Hover Size change*/
+
+    .vdes-item>img:hover {
+        max-width:100%;
+    }
+
+    .vdes-item-2>img:hover {
+        max-width:100%;
+    }
+
 }
