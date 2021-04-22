@@ -362,6 +362,10 @@ input[type=text], input[type=email], select, textarea {
     background-size: 150%;
 }
 
+#opt-out-animation {
+    display: none;
+}
+
 /* -------------------------------- */
 /* STYLING FOR HOMEPAGE PAGE GRID */
 /*--------------------------------*/

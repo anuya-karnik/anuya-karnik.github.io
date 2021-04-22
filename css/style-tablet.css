@@ -32,6 +32,11 @@ https://www.freecodecamp.org/news/css-media-queries-breakpoints-media-types-stan
     label {
         font-size: 16px ;
     }
+
+    figcaption {
+        font-size: 14px;
+    }
+    
     /*--------------------------------*/
     /*PARALLAX IMAGE
     /*--------------------------------*/

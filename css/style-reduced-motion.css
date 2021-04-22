@@ -1,0 +1,23 @@
+/*--------------------------------*/
+/* REDUCED MOTION QUERIES */
+/* Place last in the list of css files to ensure
+   access in correct order */
+/*--------------------------------*/
+@media screen and (prefers-reduced-motion) {
+    /* No animation on the flip card */
+    .card-body {
+        transition: none;
+    }
+
+    /* No parallax image
+       removed using ids 
+    */
+    #opt-out-animation {
+        display: inline-block;
+    }
+
+    #opt-in-animation {
+        display: none;
+    }
+
+}
