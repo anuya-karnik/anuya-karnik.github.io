@@ -1,7 +1,7 @@
 /* -------------------------------- */
 /* WELCOME TO LAPTOP VIEW
 /* MIN-WIDTH 1024 PX */
-/* PLACE AFTER DEFAULT STYLE.CSS */
+/* PLACE AFTER STYLE-TABLET.CSS */
 /*--------------------------------*/
 
 @media screen and (min-width: 1024px) {
@@ -49,5 +49,9 @@
 
     .card-back {
         grid-template-columns: 1fr;
+    }
+
+    .parallax-contain {
+        height: 75vh;
     }
 }
