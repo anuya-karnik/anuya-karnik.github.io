@@ -11,7 +11,7 @@ body {
     box-sizing: border-box;
     /* border: 1px solid black; */
     /*Website Color Palette*/
-    --imperial-red: #f02d3aff;
+    --claret: #83213bff;
     --midnight-blue: #001d74ff;
     --cornflower-blue: #7f95d1ff;
     --light-gray: #cfcfcfff;
@@ -105,6 +105,30 @@ label {
 .skip a:focus {
     position: absolute;
     top: 10px;
+}
+
+/*---------------------------------------------*/
+/* EXTERNAL LINK STYLING */
+/* Used for 2 Prototype Links and 1 Resume Download Link */
+/*------------------------------------------*/
+
+.ex-link {
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    color: white;
+    font-size: 12px;
+    font-weight: 500;
+    text-decoration: none;
+    background-color: var(--claret);
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 25px;
+    width: 250px;
+}
+
+.ex-link:hover {
+    background-color: cornflowerblue;
 }
 
 /*---------------------------------------------*/
