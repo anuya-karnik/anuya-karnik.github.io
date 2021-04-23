@@ -10,6 +10,10 @@
     }
 
     /* only shadow for hover */
+
+    .grid-item {
+        text-align: left;
+    }
     .grid-item:hover {
         transition: none;
         transform: none;
