@@ -9,6 +9,12 @@
         transition: none;
     }
 
+    /* only shadow for hover */
+    .grid-item:hover {
+        transition: none;
+        transform: none;
+    }
+
     /* No parallax image
        removed using ids 
     */
