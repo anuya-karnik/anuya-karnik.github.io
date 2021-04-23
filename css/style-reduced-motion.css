@@ -15,6 +15,10 @@
         transform: none;
     }
 
+    .grid-item:hover .arrow {
+        animation: none;
+    }
+
     /* No parallax image
        removed using ids 
     */
