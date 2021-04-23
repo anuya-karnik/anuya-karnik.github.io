@@ -45,6 +45,7 @@
     .cards-layout {
         padding-top: 0;
         grid-template-columns: 1fr 1fr 1fr;
+        column-gap: 20px;
     }
 
     .card-container {

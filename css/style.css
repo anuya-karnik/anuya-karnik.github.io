@@ -388,7 +388,7 @@ input[type=text], input[type=email], select, textarea {
     margin: 10px;
 }
 
-.cards-layout, .about-layout {
+.about-layout {
     display: grid;
     grid-template-columns: 1fr;
     row-gap: 20px;
@@ -541,11 +541,28 @@ footer p {
 }
 
 
-
-
 /* -------------------------------- */
 /* FLIP CARD ANIMATION */
 /*--------------------------------*/
+
+.cards-layout {
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 20px;
+    margin: 5px 10px 30px 10px;
+}
+
+.card-item {
+    box-sizing: border-box;
+    position: relative;
+    min-height: 250px;
+    max-height: fit-content;
+    padding-bottom: 10px;
+    width: auto;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 2px 5px 20px 2px rgba(180, 180, 180, 0.89);
+}
 
 .card-body {
     position: absolute;
