@@ -30,6 +30,10 @@
         display: none;
     }
 
+    .arrow {
+        display: inline;
+    }
+
     /* Remove Hover Size change*/
 
     .vdes-item>img:hover {
