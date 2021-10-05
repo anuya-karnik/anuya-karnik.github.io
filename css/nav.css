@@ -24,6 +24,7 @@ header {
 }
 
 .menu-links {
+    text-transform: uppercase;
     list-style: none;
     display: flex;
     width: 100%;
@@ -33,19 +34,19 @@ header {
 
 .menu-links a {
     padding: 10px 10px;
-    font-size: 14px;
+    font-size: 12px;
     text-decoration: none;
     color: var(--midnight-blue);
 }
 
 .menu-links a:hover {
+    animation: fadeIn 0.5s;
     background-color: var(--midnight-blue);
     color: var(--light-gray);
     text-decoration: underline solid 2px;
 }
 
 .menu-links .current {
-    text-transform: uppercase;
     font-weight: 700;
     text-decoration: underline solid 2px var(--midnight-blue);
 }
