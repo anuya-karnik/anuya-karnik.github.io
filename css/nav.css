@@ -1,11 +1,11 @@
 /* NAV BAR STYLING */
 
 header {
-    background-color: var(--light-gray);
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 0px 0px;
+    box-shadow: 0px 2px 20px 5px var(--gray-shadow);
 }
 
 .menu-title {
@@ -41,8 +41,8 @@ header {
 
 .menu-links a:hover {
     animation: fadeIn 0.5s;
-    background-color: var(--midnight-blue);
-    color: var(--light-gray);
+    background-color: var(--cornflower-blue);
+    color: white;
     text-decoration: underline solid 2px;
 }
 
@@ -59,7 +59,6 @@ header {
 
 @media screen and (min-width: 630px) {
     header {
-        background-color: var(--light-gray);
         display: flex;
         flex-direction: row;
         justify-content: space-between;
@@ -98,11 +97,11 @@ header {
         text-decoration: none;
         color: var(--midnight-blue);
     }
-    .menu-links a:hover {
+    /* .menu-links a:hover {
         background-color: var(--midnight-blue);
         color: var(--light-gray);
         text-decoration: underline solid 2px;
-    }
+    } */
 }
 
 @media screen and (min-width: 1024px) {
