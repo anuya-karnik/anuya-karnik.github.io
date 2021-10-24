@@ -1,3 +1,7 @@
+
+
+
+
 //FLIP CARDS
 var card1 = document.getElementById('card-1')
 var card2 = document.getElementById('card-2')
@@ -34,3 +38,4 @@ card3.addEventListener('click', () => {
     card3.classList.remove('key-flip')
     card3.classList.toggle('click-flip')
 })
+

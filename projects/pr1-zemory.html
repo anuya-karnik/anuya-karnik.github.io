@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="../images/favicon.ico" type="image/x-icon">  
+    <link rel="shortcut icon" href="../images/favicon.ico" type="image/x-icon">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="../css/html5reset.css">
@@ -14,9 +14,14 @@
     <link rel="stylesheet" type="text/css" href="../css/nav.css">
     <link rel="stylesheet" type="text/css" href="../css/style-reduced-motion.css">
     <title>Zemory | Anuya Karnik</title>
+     <!-- Using Chevrons and Icons from Font Awesome -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+     integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+     crossorigin="anonymous" />
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-7ZYPYV8TTM"></script>
     <script src="../scripts/gtag.js"></script>
+    <script src="..scripts/fslightbox.js" defer></script>
 </head>
 
 <body>
@@ -26,26 +31,47 @@
         <nav class="menu-links">
             <a class="current" href="../index.html">Portfolio</a>
             <a href="../about.html">About</a>
-            <a href="../contact.html">Contact</a>
+            <!-- <a href="../contact.html">Contact</a> -->
             <a href="../gallery.html">Art Gallery</a>
+            <a target="blank"
+                href="https://drive.google.com/file/d/1JAW631iYVFzYuinIF_8Tn-6K5Mkyf49g/view?usp=sharing">Resume
+                <i class="fas fa-external-link-alt"></i>
+            </a>
         </nav>
     </header>
 
     <main id="main">
-
-        <div class="project">
+        <div id="pr-header" class="project">
             <div class="layout-section color-b">
                 <div class="layout-text">
                     <h1>Zemory - Image Organization Application</h1>
                     <p>Zemory is an interactive, multipurpose web interface for millennial parents to collect, organize,
-                        as well as create sharable collages from their children's photos. ​</p>   
-                        <a class="ex-link" target="_blank" href="https://xd.adobe.com/view/6dfe3890-e0b4-41bc-a75b-cce63a2141be-38ad/"
-                            aria-label="external link to zemory prototype">
-                            TRY THE PROTOTYPE HERE
-                        </a>
+                        as well as create sharable collages from their children's photos. ​</p>
+                    <a class="ex-link" target="_blank"
+                        href="https://xd.adobe.com/view/6dfe3890-e0b4-41bc-a75b-cce63a2141be-38ad/"
+                        aria-label="external link to zemory prototype">
+                        TRY THE PROTOTYPE HERE
+                    </a>
                 </div>
             </div>
-            <div class="layout-section">
+            
+            <div>
+                <div class="project-topics">
+                    <a href="#pr-header"><span class="topic-block"></span></a>
+                    <a href="#pr-section1"><span class="topic-block"></span></a>
+                    <a href="#pr-section2"><span class="topic-block"></span></a>
+                    <a href="#pr-section3"><span class="topic-block"></span></a>
+                    <a href="#pr-section4"><span class="topic-block"></span></a>
+                    <a href="#pr-section5"><span class="topic-block"></span></a>
+                    <a href="#pr-section6"><span class="topic-block"></span></a>
+                    <a href="#pr-section7"><span class="topic-block"></span></a>
+                    <a href="#pr-section8"><span class="topic-block"></span></a>
+                    <a href="#pr-section9"><span class="topic-block"></span></a>
+
+                </div>
+            </div>
+
+            <div id="pr-section1" class="layout-section">
                 <div class="layout-text">
                     <h2>Ideation</h2>
                     <p>
@@ -66,7 +92,7 @@
                     </ul> ​​
                 </div>
             </div>
-            <div class="layout-section color-a">
+            <div id="pr-section2" class="layout-section color-a">
                 <div class="layout-text">
                     <h2>Brainstorming</h2>
                     <p>Using my ideation, I brainstormed and sketched possible solutions for approaching the problem.
@@ -82,7 +108,7 @@
                     </figure>
                 </div>
             </div>
-            <div class="layout-section">
+            <div id="pr-section3" class="layout-section">
                 <div class="layout-text">
                     <h2>Question-Option-Criteria (QOC) Analysis</h2>
                     <p>
@@ -105,7 +131,7 @@
                     </p>
                 </div>
             </div>
-            <div class="layout-section color-a">
+            <div id="pr-section4" class="layout-section color-a">
                 <div class="layout-text">
                     <h2>Personas and Scenarios</h2>
                     <p>
@@ -130,7 +156,7 @@
                 </div>
             </div>
 
-            <div class="layout-section">
+            <div id="pr-section5" class="layout-section">
                 <div class="layout-text">
                     <h2>Sketching and Wireframing</h2>
                     <p>
@@ -146,7 +172,7 @@
                 </div>
             </div>
 
-            <div class="layout-section color-a">
+            <div id="pr-section6" class="layout-section color-a">
                 <div class="layout-text">
                     <h2>
                         Lo-Fidelity Prototyping and User Testing</h2>
@@ -163,7 +189,7 @@
                     </figure>
                 </div> -->
             </div>
-            <div class="layout-section">
+            <div id="pr-section7" class="layout-section">
                 <div class="layout-text">
                     <h2>
                         UI Kit</h2>
@@ -182,7 +208,7 @@
                 </div>
             </div>
 
-            <div class="layout-section color-a">
+            <div id="pr-section8" class="layout-section color-a">
                 <div class="layout-text">
                     <h2>Mid-Fidelity Prototype</h2>
                     <p>
@@ -220,18 +246,19 @@
                 </div>
             </div>
 
-            <div class="layout-section color-b">
+            <div id="pr-section9" class="layout-section color-b">
                 <div class="layout-text">
-                    <h2>
+                    <!-- <h2>
                         High-Fidelity Prototyping</h2>
                     <p>
                         Finally, I am working on the last stage of this project, which is the high-fi prototype. Stay
                         tuned for the final result!😃
-                    </p>
-                    <a class="ex-link" target="_blank" href="https://xd.adobe.com/view/6dfe3890-e0b4-41bc-a75b-cce63a2141be-38ad/"
-                    aria-label="external link to zemory prototype">
-                    TRY THE PROTOTYPE HERE
-                </a>
+                    </p> -->
+                    <a class="ex-link" target="_blank"
+                        href="https://xd.adobe.com/view/6dfe3890-e0b4-41bc-a75b-cce63a2141be-38ad/"
+                        aria-label="external link to zemory prototype">
+                        TRY THE PROTOTYPE HERE
+                    </a>
                 </div>
             </div>
         </div>
@@ -240,7 +267,12 @@
 
     <footer>
         <p>Thank you so much for checking out my portfolio!</p>
-        © Anuya Karnik 2021
+        <div class="social-icons">
+            <a target="blank" href="https://www.linkedin.com/in/anuya-karnik/"><i class="fab fa-linkedin"></i></a>
+            <a target="blank" href="mailto:aakarnik8@gmail.com"><i class="fas fa-envelope"></i></a>
+            <a target="blank" href="https://github.com/anuya-karnik"><i class="fab fa-github"></i></a>            
+        </div>
+        <p>© Anuya Karnik 2021</p>
     </footer>
 </body>
 

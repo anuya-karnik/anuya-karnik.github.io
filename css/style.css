@@ -14,7 +14,7 @@ body {
     --claret: #83213bff;
     --midnight-blue: #001d74ff;
     --cornflower-blue: #7f95d1ff;
-    --light-gray: #cfcfcfff;
+    --light-gray: rgb(228, 228, 228);
     --davys-grey: #474a48ff;
 
     --gray-shadow:rgba(207, 207, 207, 0.5);
@@ -467,11 +467,17 @@ input[type=text], input[type=email], select, textarea {
     align-items: center;
 }
 
-.fas {
+.fa-chevron-right {
     font-size: 24px;
     color: var(--davys-grey);
 }
 
+.fa-external-link-alt {
+    font-size: 12px;
+    text-align: center;
+    text-decoration: none;
+    padding-left: 2px;
+}
 
 .grid-item:hover {
     text-align: left;
@@ -505,6 +511,18 @@ footer p {
     font-weight: 500;
     padding: 20px;
     line-height: 26px;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-icons > a > i {
+    font-size: 30px;
+    padding: 0 20px;
+    color: var(--midnight-blue);
 }
 
 /* -------------------------------- */

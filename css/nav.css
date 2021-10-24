@@ -70,7 +70,7 @@ header {
         padding-left: 25px;
     }
     .menu-title a {
-        padding-left: 20px;
+        padding-left: 35px;
         font-size: 20px;
         font-weight: bolder;
         text-decoration: none;
@@ -89,7 +89,7 @@ header {
         flex-direction: row;
         justify-content: flex-end;
         width: fit-content;
-        padding-right: 40px;
+        padding-right: 50px;
     }
     .menu-links a {
         padding: 20px 10px;

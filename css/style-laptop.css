@@ -6,6 +6,33 @@
 
 @media screen and (min-width: 1024px) {
 
+    .fa-chevron-right {
+        font-size: 30px;
+        color: var(--davys-grey);
+    }
+
+    .project-topics {
+        display: flex;
+        flex-direction: column;
+        /* background-color: black; */
+        width: 10px;
+        height: 30%;
+        position: fixed;
+        right: 0;
+        z-index: 1;
+        margin: 50px;
+        align-items: center;
+        justify-content: space-between;
+}
+    
+    .topic-block {
+        display: block;
+        width: 15px;
+        height: 15px;
+        background-color: rgba(128, 128, 128, 0.45);
+        border-radius: 30px;
+    }
+
    
     /* STYLING FOR HOMEPAGE PAGE GRID  */
     .headline {
@@ -19,7 +46,7 @@
     }
 
     .layout-section {
-        padding: 25px 70px;
+        padding: 25px 95px;
     }
 
     .vdes-grid {
