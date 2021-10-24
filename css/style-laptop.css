@@ -32,7 +32,6 @@
         background-color: rgba(128, 128, 128, 0.45);
         border-radius: 30px;
     }
-
    
     /* STYLING FOR HOMEPAGE PAGE GRID  */
     .headline {
@@ -85,5 +84,14 @@
 
     .parallax-contain {
         height: 75vh;
+    }
+
+
+     /* STYLING FOR ABOUT PAGE GRID  */
+
+    .about-page > .layout-section {
+        display: grid;
+        grid-template-columns: 1fr 6fr;
+        margin-left: 0;
     }
 }
