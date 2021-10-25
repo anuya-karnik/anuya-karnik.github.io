@@ -20,14 +20,14 @@ https://www.freecodecamp.org/news/css-media-queries-breakpoints-media-types-stan
         font-size: 18px;
     }
     p {
-        font-size: 14px;
-        line-height: 32px;
+        font-size: 16px;
+        line-height: 28px;
     }
 
     ul {
         padding: 5px 10px;
-        font-size: 14px;
-        line-height: 32px;
+        font-size: 16px;
+        line-height: 28px;
     }
     label {
         font-size: 16px ;
@@ -50,8 +50,31 @@ https://www.freecodecamp.org/news/css-media-queries-breakpoints-media-types-stan
     ALTERNATE BETWEEN WHITE AND MIDNIGHT BLUE */
     /*------------------------------------------*/
 
+    .project-topics {
+        display: flex;
+        flex-direction: column;
+        /* background-color: black; */
+        width: 10px;
+        height: 30%;
+        position: fixed;
+        right: 0;
+        z-index: 1;
+        margin: 25px;
+        align-items: center;
+        justify-content: space-between;
+}
+    
+    .topic-block {
+        display: block;
+        width: 15px;
+        height: 15px;
+        background-color: rgba(128, 128, 128, 0.45);
+        border-radius: 30px;
+    }
+   
+
     .layout-section {
-        padding: 35px;
+        padding: 35px 70px 20px 35px;
     }
 
     .ex-link {

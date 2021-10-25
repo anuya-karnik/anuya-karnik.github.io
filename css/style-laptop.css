@@ -11,28 +11,6 @@
         color: var(--davys-grey);
     }
 
-    .project-topics {
-        display: flex;
-        flex-direction: column;
-        /* background-color: black; */
-        width: 10px;
-        height: 30%;
-        position: fixed;
-        right: 0;
-        z-index: 1;
-        margin: 50px;
-        align-items: center;
-        justify-content: space-between;
-}
-    
-    .topic-block {
-        display: block;
-        width: 15px;
-        height: 15px;
-        background-color: rgba(128, 128, 128, 0.45);
-        border-radius: 30px;
-    }
-   
     /* STYLING FOR HOMEPAGE PAGE GRID  */
     .headline {
         margin: 0 75px;
@@ -46,6 +24,10 @@
 
     .layout-section {
         padding: 25px 95px;
+    }
+
+    .layout-image {
+        margin: 30px 300px;
     }
 
     .vdes-grid {
