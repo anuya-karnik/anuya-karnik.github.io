@@ -365,6 +365,11 @@ input[type=text], input[type=email], select, textarea {
     line-height: 32px;
 }
 
+.headline > h2 {
+    color: white;
+    font-weight: 300;
+}
+
 /*--------------------------------*/
 /*PARALLAX IMAGE
 /*--------------------------------*/
