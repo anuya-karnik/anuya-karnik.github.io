@@ -20,14 +20,14 @@ https://www.freecodecamp.org/news/css-media-queries-breakpoints-media-types-stan
         font-size: 18px;
     }
     p {
-        font-size: 14px;
-        line-height: 28px;
+        font-size: 16px;
+        line-height: 30px;
     }
 
     ul {
         padding: 5px 10px;
-        font-size: 14px;
-        line-height: 28px;
+        font-size: 16px;
+        line-height: 30px;
     }
     label {
         font-size: 16px ;
@@ -57,6 +57,7 @@ https://www.freecodecamp.org/news/css-media-queries-breakpoints-media-types-stan
         width: 10px;
         height: 30%;
         position: fixed;
+        top: 25%;
         right: 0;
         z-index: 1;
         margin: 25px;
