@@ -1,8 +1,85 @@
+/**********
+IMAGE MODALS
+***********/
+
+var allImages = document.querySelectorAll('.layout-image')
+for (var imgLayout of allImages) {
+    var imgDisplay = imgLayout.querySelector('img')
+    imgDisplay.onclick = function () {
+        //add modal
+        var imgModal = document.createElement('div')
+        imgModal.classList.add('layout-modal')
+
+        //close button
+        var imgModalClose = document.createElement('span')
+        imgModalClose.classList.add('modal-close')
+        imgModalClose.innerHTML = "&times;"
+
+        //close button config
+        imgModalClose.onclick = function () {
+            imgModal.style.display = "none"
+        }
+
+        imgModal.appendChild(imgModalClose)
+        console.log('close button added')
+
+        //add modal content - image
+        var imgModalContent = document.createElement('img')
+        imgModalContent.classList.add('modal-content')
+        imgModalContent.src = this.src
+        imgModal.appendChild(imgModalContent)
+        console.log('image appended')
+
+        //add image caption
+        var imgModalCaption = document.createElement('div')
+        imgModalCaption.classList.add('modal-caption')
+        imgModalCaption.innerHTML = this.alt
+        imgModal.appendChild(imgModalCaption)
+        console.log('caption appended: ' + this.alt)
+
+        imgModal.style.display = "block"
+
+        // clicking the image also makes it disappear
+        imgModal.onclick = function () {
+            imgModal.style.display = "none"
+        }
+        imgLayout.append(imgModal)
+    }
+}
+
+var openImages = document.getElementsByClassName('layout-modal')
+for (var openImg of openImages) {
+    console.log('looking at open image')
+    openImg.onclick = function () {
+        openImg.style.display = "none"
+        console.log('image closed')
+    }
+}
 
 
+// var imgtoexpand = document.getElementById('test-img')
+// var modalImg = document.getElementById('test-modal')
+// var caption = document.getElementById('test-caption')
 
+// imgtoexpand.onclick = function() {
+//     modalImg.style.display = "block"
+//     modalImg.querySelector('img').src = this.src
+//     caption.innerHTML=this.alt
+// }
 
-//FLIP CARDS
+// var closeButton = document.getElementById('test-close')
+// closeButton.onclick = function() {
+//     modalImg.style.display = "none"
+// }
+
+// modalImg.onclick = function() {
+//     modalImg.style.display = "none"
+// }
+
+/**********
+FLIP CARDS
+todo: add try-except here
+***********/
 var card1 = document.getElementById('card-1')
 var card2 = document.getElementById('card-2')
 var card3 = document.getElementById('card-3')
@@ -38,4 +115,3 @@ card3.addEventListener('click', () => {
     card3.classList.remove('key-flip')
     card3.classList.toggle('click-flip')
 })
-

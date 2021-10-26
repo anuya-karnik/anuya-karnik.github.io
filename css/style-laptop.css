@@ -26,9 +26,29 @@
         margin: 20px 60px;
     }
 
-    .layout-section {
+    .layout-a {
         padding: 25px 95px;
     }
+
+    /* .layout-b {
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        grid-template-columns: 2fr 3fr;
+
+    }
+
+    .layout-c {
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        grid-template-columns: 3fr 2fr;
+
+    }
+
+    .layout-b .layout-c > .layout-image {
+        margin: 10px 20px;
+    } */
 
     .layout-image {
         margin: 30px 200px;
@@ -75,9 +95,14 @@
 
      /* STYLING FOR ABOUT PAGE GRID  */
 
-    .about-page > .layout-section {
+    .about-page > .layout-a {
         display: grid;
         grid-template-columns: 1fr 6fr;
         margin-left: 0;
+    }
+
+    .modal-content {
+        max-width: auto;
+        max-height: 80vh;
     }
 }
