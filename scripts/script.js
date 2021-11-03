@@ -1,3 +1,9 @@
+var allParallax = document.getElementsByClassName('parallax-contain')
+for (var parallax of allParallax) {
+    var insideImg = parallax.querySelector('img')
+    
+}
+
 /**********
 IMAGE MODALS
 ***********/

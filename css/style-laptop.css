@@ -91,6 +91,9 @@
     .parallax-contain {
         height: 75vh;
     }
+    .pr1-parallax-contain {
+        height: 50vh;
+    }
 
 
      /* STYLING FOR ABOUT PAGE GRID  */
