@@ -88,11 +88,11 @@
         grid-template-columns: 1fr;
     }
 
-    .parallax-contain {
+    .pr3-parallax-contain {
         height: 75vh;
     }
     .pr1-parallax-contain {
-        height: 50vh;
+        height:70vh;
     }
 
 
