@@ -395,7 +395,7 @@ input[type=text], input[type=email], select, textarea {
     background-position: top;
     background-repeat: no-repeat;
     background-size: 100%;
-    background-image: url(../images/01-zem-images/zem-header-image.png);
+    background-image: url(../images/01-zem-images/zem-header-image-overlay.png);
 }
 .pr3-parallax-contain {
     height: 100vh;
