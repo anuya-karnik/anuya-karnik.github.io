@@ -1,7 +1,6 @@
 /**********
 IMAGE MODALS
 ***********/
-
 var allImages = document.querySelectorAll('.layout-image')
 for (var imgLayout of allImages) {
     var imgDisplay = imgLayout.querySelector('img')
@@ -55,26 +54,6 @@ for (var openImg of openImages) {
         console.log('image closed')
     }
 }
-
-
-// var imgtoexpand = document.getElementById('test-img')
-// var modalImg = document.getElementById('test-modal')
-// var caption = document.getElementById('test-caption')
-
-// imgtoexpand.onclick = function() {
-//     modalImg.style.display = "block"
-//     modalImg.querySelector('img').src = this.src
-//     caption.innerHTML=this.alt
-// }
-
-// var closeButton = document.getElementById('test-close')
-// closeButton.onclick = function() {
-//     modalImg.style.display = "none"
-// }
-
-// modalImg.onclick = function() {
-//     modalImg.style.display = "none"
-// }
 
 /**********
 FLIP CARDS
