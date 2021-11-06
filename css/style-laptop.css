@@ -1,11 +1,13 @@
 /* -------------------------------- */
+
 /* WELCOME TO LAPTOP VIEW
 /* MIN-WIDTH 1024 PX */
+
 /* PLACE AFTER STYLE-TABLET.CSS */
+
 /*--------------------------------*/
 
 @media screen and (min-width: 1024px) {
-
     .project-topics {
         height: 50%;
         margin: 40px;
@@ -14,22 +16,25 @@
         font-size: 30px;
         color: var(--davys-grey);
     }
-
     /* STYLING FOR HOMEPAGE PAGE GRID  */
     .headline {
         margin: 0 75px;
     }
-
     .grid-layout-1 {
         grid-template-columns: 1fr 1fr;
         row-gap: 40px;
         margin: 20px 60px;
     }
-
     .layout-a {
         padding: 25px 95px;
     }
-
+    .pr-grid {
+        display: grid;
+        grid-template-columns: auto auto auto auto auto auto;
+    }
+    .pr-about {
+        font-size: 14px;
+    }
     /* .layout-b {
         display: grid;
         justify-content: center;
@@ -49,61 +54,48 @@
     .layout-b .layout-c > .layout-image {
         margin: 10px 20px;
     } */
-
     .layout-image {
         margin: 30px 200px;
     }
-
     .vdes-grid {
         margin: 10px 80px;
     }
-
     .contact-form {
         display: block;
         margin-left: 25%;
         margin-right: 25%;
     }
-
     input[type=submit] {
         width: 100%;
     }
-
     .about-layout {
         padding-top: 0;
         grid-template-columns: 1fr 1fr;
         column-gap: 20px;
     }
-
     .cards-layout {
         padding-top: 0;
         grid-template-columns: 1fr 1fr 1fr;
         column-gap: 20px;
     }
-
     .card-container {
         height: 450px;
     }
-
     .card-back {
         grid-template-columns: 1fr;
     }
-
     .pr3-parallax-contain {
         height: 75vh;
     }
     .pr1-parallax-contain {
-        height:70vh;
+        height: 65vh;
     }
-
-
-     /* STYLING FOR ABOUT PAGE GRID  */
-
-    .about-page > .layout-a {
+    /* STYLING FOR ABOUT PAGE GRID  */
+    .about-page>.layout-a {
         display: grid;
         grid-template-columns: 1fr 6fr;
         margin-left: 0;
     }
-
     .modal-content {
         max-width: auto;
         max-height: 80vh;

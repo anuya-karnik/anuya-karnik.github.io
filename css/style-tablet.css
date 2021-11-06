@@ -20,13 +20,13 @@ https://www.freecodecamp.org/news/css-media-queries-breakpoints-media-types-stan
         font-size: 18px;
     }
     p {
-        font-size: 16px;
+        font-size: 15px;
         line-height: 30px;
     }
 
     ul {
+        font-size: 15px;
         padding: 5px 10px;
-        font-size: 16px;
         line-height: 30px;
     }
     label {
@@ -46,6 +46,7 @@ https://www.freecodecamp.org/news/css-media-queries-breakpoints-media-types-stan
     }
     .pr1-parallax-contain {
         height: 40vh;
+        
     }
 
     /*---------------------------------------------*/
@@ -81,6 +82,10 @@ https://www.freecodecamp.org/news/css-media-queries-breakpoints-media-types-stan
         padding: 35px 70px 20px 35px;
     }
 
+    .pr-grid {
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+    }
     .ex-link {
         font-size: 16px;
     }
