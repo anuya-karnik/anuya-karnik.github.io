@@ -194,7 +194,7 @@ https://www.freecodecamp.org/news/css-media-queries-breakpoints-media-types-stan
     /* ART GALLERY */
     /*--------------------------------*/
     .gallery-section {
-        margin: 10px 40px;
+        margin: 10px 70px;
         display: grid;
         grid-template-columns: 1fr 1fr;
         column-gap: 10px;
