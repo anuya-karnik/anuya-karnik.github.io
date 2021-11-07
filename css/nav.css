@@ -66,7 +66,7 @@ header {
         padding: 0px 0px;
     }
     .menu-title {
-        margin: 0px;
+        margin: 0px 30px;
         padding-left: 25px;
     }
     .menu-title a {
@@ -89,7 +89,7 @@ header {
         flex-direction: row;
         justify-content: flex-end;
         width: fit-content;
-        padding-right: 50px;
+        padding-right: 80px;
     }
     .menu-links a {
         padding: 20px 10px;
@@ -97,20 +97,15 @@ header {
         text-decoration: none;
         color: var(--midnight-blue);
     }
-    /* .menu-links a:hover {
-        background-color: var(--midnight-blue);
-        color: var(--light-gray);
-        text-decoration: underline solid 2px;
-    } */
 }
 
 @media screen and (min-width: 1024px) {
     .menu-title {
-        margin-left: 45px;
+        margin-left: 150px;
     }
 
     .menu-links {
-        margin-right: 45px;
+        margin-right: 145px;
     }
 
 }

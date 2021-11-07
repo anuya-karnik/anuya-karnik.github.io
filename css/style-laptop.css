@@ -18,15 +18,16 @@
     }
     /* STYLING FOR HOMEPAGE PAGE GRID  */
     .headline {
-        margin: 0 75px;
+        margin: 0 180px;
     }
     .grid-layout-1 {
         grid-template-columns: 1fr 1fr;
         row-gap: 40px;
-        margin: 20px 60px;
+        margin: 20px 160px;
     }
+    /* STYLING FOR PROJECT PAGE  */
     .layout-a {
-        padding: 25px 95px;
+        padding: 25px 200px;
     }
     .pr-grid {
         display: grid;
@@ -58,7 +59,7 @@
         margin: 30px 200px;
     }
     .vdes-grid {
-        margin: 10px 80px;
+        margin: 10px 200px;
     }
     .contact-form {
         display: block;
