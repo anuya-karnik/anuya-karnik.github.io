@@ -36,6 +36,10 @@ https://www.freecodecamp.org/news/css-media-queries-breakpoints-media-types-stan
     figcaption {
         font-size: 14px;
     }
+
+    .grid-img-caption {
+        font-size: 14px;
+    }
     
     /*--------------------------------*/
     /*PARALLAX IMAGE
@@ -57,7 +61,6 @@ https://www.freecodecamp.org/news/css-media-queries-breakpoints-media-types-stan
     .project-topics {
         display: flex;
         flex-direction: column;
-        /* background-color: black; */
         width: 10px;
         height: 30%;
         position: fixed;
@@ -76,11 +79,16 @@ https://www.freecodecamp.org/news/css-media-queries-breakpoints-media-types-stan
         background-color: rgba(128, 128, 128, 0.45);
         border-radius: 30px;
     }
-    .layout-a {
+    .pr-a {
         padding: 35px 90px 20px 65px;
     }
 
-    .pr-grid {
+    .pr-b {
+        padding: 35px 90px 20px 65px;
+    }
+    
+
+    .pr-about-grid {
         display: grid;
         grid-template-columns: auto auto auto auto;
     }
@@ -204,7 +212,7 @@ https://www.freecodecamp.org/news/css-media-queries-breakpoints-media-types-stan
     /* ABOUT PAGE */
     /*--------------------------------*/
 
-    .about-page > .layout-a {
+    .about-page > .pr-a {
         display: grid;
         grid-template-columns: 1fr 3fr;
     }

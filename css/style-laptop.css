@@ -5,6 +5,19 @@
 
 /* PLACE AFTER STYLE-TABLET.CSS */
 
+/* 
+    PROJECT PAGE LAYOUTS:
+
+    pr-a: one-column, text + image
+    pr-b: two column, text + image
+    pr-c: two column, image + text
+
+    pr-img: one image, 100% image
+    b-image: more margin from text
+    pr-img-grid: 2 column grid of images
+
+*/
+
 /*--------------------------------*/
 
 @media screen and (min-width: 1024px) {
@@ -26,37 +39,43 @@
         margin: 20px 160px;
     }
     /* STYLING FOR PROJECT PAGE  */
-    .layout-a {
+    .pr-a {
         padding: 25px 200px;
     }
-    .pr-grid {
+    .pr-about-grid {
         display: grid;
         grid-template-columns: repeat(6, auto);
     }
     .pr-about {
         font-size: 14px;
     }
-    /* .layout-b {
+    .pr-b {
+        padding: 25px 200px;
         display: grid;
         justify-content: center;
         align-items: center;
         grid-template-columns: 2fr 3fr;
-
+    }
+    .pr-img {
+        margin: 30px 100px;
     }
 
-    .layout-c {
+    .pr-img>figure>img:hover {
+        width: 102%;
+        transition: 0.2s;
+        box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.2);
+    }
+
+    .b-img {
+        margin: 30px 10px 30px 50px;
+    }
+    .pr-img-grid {
         display: grid;
-        justify-content: center;
-        align-items: center;
-        grid-template-columns: 3fr 2fr;
-
+        grid-template-columns: auto auto;
+        align-items: flex-end;
     }
-
-    .layout-b .layout-c > .layout-image {
-        margin: 10px 20px;
-    } */
-    .layout-image {
-        margin: 30px 200px;
+    .grid-img {
+        margin: 5px 15px;
     }
     .vdes-grid {
         margin: 10px 200px;
@@ -92,7 +111,7 @@
         height: 65vh;
     }
     /* STYLING FOR ABOUT PAGE GRID  */
-    .about-page>.layout-a {
+    .about-page>.pr-a {
         display: grid;
         grid-template-columns: 1fr 6fr;
         margin-left: 0;
@@ -101,7 +120,6 @@
         max-width: auto;
         max-height: 80vh;
     }
-
     .gallery-section {
         margin: 10px 200px;
     }

@@ -7,7 +7,7 @@ for (var parallax of allParallax) {
 /**********
 IMAGE MODALS
 ***********/
-var allImages = document.querySelectorAll('.layout-image')
+var allImages = document.querySelectorAll('.pr-img')
 for (var imgLayout of allImages) {
     var imgDisplay = imgLayout.querySelector('img')
     imgDisplay.onclick = function () {

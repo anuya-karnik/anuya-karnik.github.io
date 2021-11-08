@@ -101,6 +101,20 @@ label {
     color: midnightblue;
 }
 
+figcaption {
+    font-size: 12px;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 15px;
+}
+
+.grid-img-caption {
+    font-size: 12px;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 15px;
+}
+
 .skip a {
     background-color: white;
     padding: 10px;
@@ -140,9 +154,17 @@ label {
    ALTERNATE BETWEEN WHITE AND MIDNIGHT BLUE */
 /*------------------------------------------*/
 
-.layout-a {
+.pr-a {
     margin: 0px 0px;
     padding: 20px;
+}
+
+.pr-b {
+    margin: 0px 0px;
+    padding: 20px;
+}
+.pr-img-grid {
+    margin-top: 30px;
 }
 .pr-about {
     opacity: 75%;
@@ -150,7 +172,7 @@ label {
     padding-bottom: 10px;
     font-weight: 300;
 }
-.pr-grid {
+.pr-about-grid {
     display: grid;
     padding: 5px 10px 10px 10px;
     padding-top: 10px;
@@ -179,27 +201,20 @@ label {
     width: 75%;
 }
 
-.layout-image {
+.pr-img {
     margin: 10px 15px;
 }
 
-.layout-image:hover {
+.pr-img:hover {
     cursor: pointer;
 }
 
-.layout-image>figure>img {
+.pr-img>figure>img {
     width: 100%;
 }
 
 .layout-video {
     margin: 10px 15px;
-}
-
-figcaption {
-    font-size: 12px;
-    text-align: center;
-    padding-top: 5px;
-    padding-bottom: 15px;
 }
 /*-----------------------------------------------*/
 /* CLASS FOR WHITE IMAGES OVER WHITE BACKGROUND */
