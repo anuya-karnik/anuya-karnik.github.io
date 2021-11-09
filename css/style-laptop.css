@@ -54,24 +54,32 @@
         display: grid;
         justify-content: center;
         align-items: center;
-        grid-template-columns: 2fr 3fr;
+        grid-template-columns: 1fr 1fr;
+    }
+    .pr-c {
+        padding: 25px 200px;
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        grid-template-columns: 3fr 2fr;
     }
     .pr-img {
-        margin: 30px 100px;
+        margin: 30px 200px;
     }
-
     .pr-img>figure>img:hover {
         width: 102%;
         transition: 0.2s;
         box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.2);
     }
-
-    .b-img {
+    .b2-img {
         margin: 30px 10px 30px 50px;
+    }
+    .b1-img {
+        margin: 30px 50px 30px 10px;
     }
     .pr-img-grid {
         display: grid;
-        grid-template-columns: auto auto;
+        grid-template-columns: auto auto auto;
         align-items: flex-end;
     }
     .grid-img {

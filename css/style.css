@@ -108,6 +108,10 @@ figcaption {
     padding-bottom: 15px;
 }
 
+strong {
+    font-weight: 600;
+}
+
 .grid-img-caption {
     font-size: 12px;
     text-align: center;
@@ -191,6 +195,13 @@ figcaption {
     font-weight: 300;
 }
 
+.color-b h2 {
+    color: white;
+}
+
+.color-c {
+    background-color: var(--cornflower-blue);
+}
 .color-b h3 {
     color: white;
     font-weight: 500;
@@ -205,6 +216,9 @@ figcaption {
     margin: 10px 15px;
 }
 
+.large-img {
+    margin: 0px 0px;
+}
 .pr-img:hover {
     cursor: pointer;
 }
@@ -215,6 +229,15 @@ figcaption {
 
 .layout-video {
     margin: 10px 15px;
+}
+
+.pr-quote {
+    text-align: center;
+    font-size: 18px;
+    line-height: 36px;
+    font-weight: 500;
+    font-style: italic;
+    color: white;
 }
 /*-----------------------------------------------*/
 /* CLASS FOR WHITE IMAGES OVER WHITE BACKGROUND */
