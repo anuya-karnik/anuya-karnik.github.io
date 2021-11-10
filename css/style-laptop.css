@@ -22,7 +22,7 @@
 
 @media screen and (min-width: 1024px) {
     .project-topics {
-        height: 50%;
+        height: 40%;
         margin: 40px;
     }
     .fa-chevron-right {
