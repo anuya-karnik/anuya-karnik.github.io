@@ -44,7 +44,7 @@
     }
     .pr-about-grid {
         display: grid;
-        grid-template-columns: repeat(6, auto);
+        grid-template-columns: repeat(2, auto);
     }
     .pr-about {
         font-size: 14px;
