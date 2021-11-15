@@ -442,9 +442,9 @@ input[type=text], input[type=email], select, textarea {
     height: 20vh;
     background-attachment: fixed;
     background-position: top;
-    background-repeat: no-repeat;
+    background-repeat: repeat;
     background-size: 100%;
-    background-image: url(../images/01-zem-images/zem-header-image-overlay.png);
+    background-image: url(../images/01-zem-images/zem-header-image1-overlay.png);
 }
 .pr3-parallax-contain {
     height: 100vh;

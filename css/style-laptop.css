@@ -21,8 +21,8 @@
 /*--------------------------------*/
 
 @media screen and (min-width: 1024px) {
-    .project-topics {
-        height: 40%;
+    .pr-topics {
+        height: 50%;
         margin: 40px;
     }
     .fa-chevron-right {
@@ -36,7 +36,7 @@
     .grid-layout-1 {
         grid-template-columns: 1fr 1fr;
         row-gap: 40px;
-        margin: 20px 160px;
+        margin: 20px 100px;
     }
     /* STYLING FOR PROJECT PAGE  */
     .pr-a {

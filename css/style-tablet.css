@@ -57,7 +57,7 @@ https://www.freecodecamp.org/news/css-media-queries-breakpoints-media-types-stan
     /* PROJECT TEXT AND IMAGE SECTIONS
     ALTERNATE BETWEEN WHITE AND MIDNIGHT BLUE */
     /*------------------------------------------*/
-    .project-topics {
+    .pr-topics {
         display: flex;
         flex-direction: column;
         width: 10px;
