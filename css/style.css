@@ -6,9 +6,13 @@ body {
     font-family: 'Work Sans', 'Arial', sans-serif;
     margin: 0;
 }
+
 /*--------------------------------*/
+
 /* MY BEAUTIFUL COLOR PALETTE */
+
 /* Generated Using coolors.co */
+
 /*--------------------------------*/
 
 * {
@@ -20,11 +24,13 @@ body {
     --cornflower-blue: #7f95d1ff;
     --light-gray: #e4e4e4ff;
     --davys-grey: #474a48ff;
-    --gray-shadow:rgba(207, 207, 207, 0.5);
+    --gray-shadow: rgba(207, 207, 207, 0.5);
 }
 
 /*--------------------------------*/
+
 /* BASIC ELEMENTS STYLE - BASE STYLE */
+
 /*--------------------------------*/
 
 h1 {
@@ -132,8 +138,11 @@ strong {
 }
 
 /*---------------------------------------------*/
+
 /* EXTERNAL LINK STYLING */
+
 /* Used for 2 Prototype Links and 1 Resume Download Link */
+
 /*------------------------------------------*/
 
 .ex-link {
@@ -148,13 +157,16 @@ strong {
     font-weight: 500;
     text-underline-offset: 3px;
 }
+
 .ex-link:hover {
     color: cornflowerblue;
 }
 
 /*---------------------------------------------*/
+
 /* PROJECT TEXT AND IMAGE SECTIONS
    ALTERNATE BETWEEN WHITE AND MIDNIGHT BLUE */
+
 /*------------------------------------------*/
 
 .pr-a {
@@ -166,15 +178,18 @@ strong {
     margin: 0px 0px;
     padding: 20px;
 }
+
 .pr-img-grid {
     margin-top: 30px;
 }
+
 .pr-about {
     opacity: 75%;
     font-size: 12px;
     padding-bottom: 10px;
     font-weight: 300;
 }
+
 .pr-about-grid {
     display: grid;
     padding: 5px 10px 10px 10px;
@@ -186,9 +201,7 @@ strong {
     background-color: var(--light-gray);
 }
 
-.color-b,
-.color-b p,
-.color-b li {
+.color-b, .color-b p, .color-b li {
     background-color: var(--midnight-blue);
     color: white;
     font-weight: 300;
@@ -201,13 +214,15 @@ strong {
 .color-c {
     background-color: var(--cornflower-blue);
 }
+
 .color-b h3 {
     color: white;
     font-weight: 500;
 }
+
 #pr-header-img {
     display: block;
-    margin:  0 auto;
+    margin: 0 auto;
     width: 75%;
 }
 
@@ -218,6 +233,7 @@ strong {
 .large-img {
     margin: 0px 0px;
 }
+
 .pr-img:hover {
     cursor: pointer;
 }
@@ -227,6 +243,23 @@ strong {
 }
 
 video {
+    width: 100%;
+}
+
+.iframe-container {
+    overflow: hidden;
+    margin: 20px 0;
+    padding-top: 56.25%;
+    /* 16:9*/
+    position: relative;
+}
+
+.iframe-container iframe {
+    border: 0;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
     width: 100%;
 }
 
@@ -242,14 +275,21 @@ video {
     font-style: italic;
     color: white;
 }
+
 /*-----------------------------------------------*/
+
 /* CLASS FOR WHITE IMAGES OVER WHITE BACKGROUND */
+
 /*---------------------------------------------*/
+
 .white-bg {
     box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.3);
 }
+
 /* -------------------------------- */
+
 /*VISUAL DESIGN PROJECT - IMAGE GRID*/
+
 /* -------------------------------- */
 
 .vdes-grid {
@@ -259,8 +299,9 @@ video {
     column-gap: 10px;
     row-gap: 10px;
 }
+
 .vdes-item>img {
-    max-width:100%;
+    max-width: 100%;
 }
 
 .vdes-item-1 {
@@ -269,7 +310,7 @@ video {
 }
 
 .vdes-item>img:hover {
-    max-width:101%;
+    max-width: 101%;
     transition: 0.6s;
 }
 
@@ -278,9 +319,10 @@ video {
 }
 
 .vdes-item-2>img:hover {
-    max-width:101%;
+    max-width: 101%;
     transition: 0.6s;
 }
+
 .vdes-align-item {
     position: relative;
 }
@@ -289,6 +331,7 @@ video {
     position: absolute;
     bottom: 0;
 }
+
 .col3 {
     grid-column: span 3;
 }
@@ -300,9 +343,13 @@ video {
 .large {
     grid-column: span 4;
 }
+
 /* -------------------------------- */
+
 /* CONTACT FORM */
+
 /*--------------------------------*/
+
 input[type=text], input[type=email], select, textarea {
     width: 100%;
     padding: 12px;
@@ -311,20 +358,19 @@ input[type=text], input[type=email], select, textarea {
     margin-top: 6px;
     margin-bottom: 16px;
     box-shadow: 2px 2px 5px 2px rgba(180, 180, 180, 0.89);
+}
 
-  }
+textarea {
+    resize: vertical;
+    height: 200px;
+}
 
-  textarea {
-      resize: vertical;
-      height: 200px;
-  }
+input::placeholder, textarea::placeholder {
+    color: rgb(184, 184, 184);
+    font-family: 'Work-Sans', Arial, sans-serif;
+}
 
-  input::placeholder, textarea::placeholder {
-      color: rgb(184, 184, 184);
-      font-family: 'Work-Sans', Arial, sans-serif;
-  }
-
-  input[type=submit] {
+input[type=submit] {
     width: 100%;
     height: 50px;
     background-color: var(--midnight-blue);
@@ -333,22 +379,22 @@ input[type=text], input[type=email], select, textarea {
     border: none;
     border-radius: 4px;
     cursor: pointer;
-  }
+}
 
-  input[type=submit]:hover {
-      background-color: var(--cornflower-blue);
-  }
+input[type=submit]:hover {
+    background-color: var(--cornflower-blue);
+}
 
-  .contact-form {
+.contact-form {
     display: flex;
     border-radius: 5px;
     padding: 20px;
-  }
-
-
+}
 
 /* -------------------------------- */
+
 /* ABOUT SECTION */
+
 /*--------------------------------*/
 
 #about-section {
@@ -425,18 +471,21 @@ input[type=text], input[type=email], select, textarea {
     line-height: 32px;
 }
 
-.headline > h2 {
+.headline>h2 {
     font-family: 'Work Sans';
     color: white;
     font-weight: 300;
 }
 
 /*--------------------------------*/
+
 /*PARALLAX IMAGE
 /*--------------------------------*/
+
 .full-image {
     width: 100%;
 }
+
 .pr1-parallax-contain {
     z-index: -2;
     height: 20vh;
@@ -446,11 +495,12 @@ input[type=text], input[type=email], select, textarea {
     background-size: 100%;
     background-image: url(../images/01-zem-images/zem-header-image1-overlay.png);
 }
+
 .pr3-parallax-contain {
     height: 100vh;
     z-index: -1;
     background-attachment: fixed;
-    background-position:top;
+    background-position: top;
     background-repeat: no-repeat;
     background-size: 100%;
     background-image: url(../images/03-axd-images/axd-day-5.png);
@@ -461,7 +511,9 @@ input[type=text], input[type=email], select, textarea {
 }
 
 /* -------------------------------- */
+
 /* STYLING FOR HOMEPAGE PAGE GRID */
+
 /*--------------------------------*/
 
 .grid-layout-1 {
@@ -510,7 +562,6 @@ input[type=text], input[type=email], select, textarea {
     width: 100%;
     border-radius: 10px 10px 0px 0px;
 }
-
 
 .link {
     position: absolute;
@@ -567,13 +618,18 @@ input[type=text], input[type=email], select, textarea {
 }
 
 @keyframes fadeIn {
-    0% {opacity:0;}
-    100% {opacity:1;}
-  }
-
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
 
 /* -------------------------------- */
+
 /* FOOTER STYLING */
+
 /*--------------------------------*/
 
 footer {
@@ -597,14 +653,16 @@ footer p {
     align-items: center;
 }
 
-.social-icons > a > i {
+.social-icons>a>i {
     font-size: 30px;
     padding: 0 20px;
     color: var(--midnight-blue);
 }
 
 /* -------------------------------- */
+
 /* GALLERY IMAGES STYLING */
+
 /*--------------------------------*/
 
 .gallery-section {
@@ -630,8 +688,7 @@ footer p {
     top: 0;
     left: 0;
     z-index: 1;
-
-    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75) );
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75));
     opacity: 100%;
 }
 
@@ -642,9 +699,10 @@ footer p {
     color: white;
 }
 
-
 /* -------------------------------- */
+
 /* FLIP CARD ANIMATION */
+
 /*--------------------------------*/
 
 .cards-layout {
@@ -688,7 +746,6 @@ footer p {
     justify-content: center;
     background-color: var(--midnight-blue);
     border-radius: 10px;
-
     position: absolute;
     width: 100%;
     height: 100%;
@@ -698,7 +755,7 @@ footer p {
 .card-front h3 {
     position: absolute;
     color: white;
-    font-size:20px;
+    font-size: 20px;
     padding: 40px;
     font-weight: 500;
 }
@@ -707,11 +764,11 @@ footer p {
     width: 100%;
     height: 100%;
     backface-visibility: hidden;
-    transform:rotateY(180deg);
+    transform: rotateY(180deg);
 }
 
 .card-back h3 {
-    font-size:20px;
+    font-size: 20px;
     color: var(--midnight-blue);
     font-weight: 500;
 }
@@ -732,28 +789,32 @@ footer p {
     margin: 20px 5px 5px 5px;
     border-radius: 10px;
 }
+
 #card-3-img {
     margin: 20px;
 }
 
 /* -------------------------------- */
+
 /* ADDING AN IMAGE MODAL */
+
 /* TODO: Change Cursor on Image Hover */
+
 /*--------------------------------*/
 
 .layout-modal {
     display: none;
     position: fixed;
-    z-index: 2; /*keeping it above the progress dots*/
+    z-index: 2;
+    /*keeping it above the progress dots*/
     padding-top: 50px;
     left: 0;
     top: 0;
     width: 100%;
     height: 100%;
-    overflow:visible;
+    overflow: visible;
     background-color: black;
     background-color: rgba(0, 0, 0, 0.9);
-
 }
 
 .modal-content {
@@ -761,6 +822,7 @@ footer p {
     display: block;
     max-width: 50vw;
 }
+
 .modal-caption {
     margin: auto;
     display: block;
@@ -780,4 +842,4 @@ footer p {
     font-size: 40px;
     font-weight: bold;
     transition: 0.3s;
-  }
+}
