@@ -2,7 +2,7 @@
 ScrollReveal().reveal('.grid-item', {interval: 50, origin:'bottom', distance: '10px', easing: 'ease-in'});
 
 //Animation for Project Images
-ScrollReveal().reveal('.pr-img', {interval: 100, origin:'bottom', distance: '2px', easing: 'ease-in'})
+ScrollReveal().reveal('img', {interval: 100, origin:'bottom', distance: '2px', easing: 'ease-in'})
 
 /**********
 IMAGE MODALS
