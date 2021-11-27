@@ -1,8 +1,8 @@
-var allParallax = document.getElementsByClassName('parallax-contain')
-for (var parallax of allParallax) {
-    var insideImg = parallax.querySelector('img')
-    
-}
+//Animation for Home
+ScrollReveal().reveal('.grid-item', {interval: 50, origin:'bottom', distance: '10px', easing: 'ease-in'});
+
+//Animation for Project Images
+ScrollReveal().reveal('.pr-img', {interval: 100, origin:'bottom', distance: '2px', easing: 'ease-in'})
 
 /**********
 IMAGE MODALS

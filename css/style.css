@@ -531,6 +531,10 @@ input[type=submit]:hover {
     margin: 5px 10px 30px 10px;
 }
 
+html.sr .load-hidden {
+    visibility: hidden;
+}
+
 .grid-item {
     box-sizing: border-box;
     position: relative;
