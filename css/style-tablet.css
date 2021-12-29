@@ -52,9 +52,12 @@ https://www.freecodecamp.org/news/css-media-queries-breakpoints-media-types-stan
         height: 40vh;
     }
 
+    .pr2-parallax-contain {
+        height: 40vh;
+    }
+
     .pr1-parallax-contain {
         height: 40vh;
-
     }
 
     /*---------------------------------------------*/

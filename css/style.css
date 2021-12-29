@@ -497,6 +497,16 @@ input[type=submit]:hover {
     background-image: url(../images/01-zem-images/zem-header-image1-overlay.png);
 }
 
+.pr2-parallax-contain {
+    z-index: -2;
+    height: 20vh;
+    background-attachment: fixed;
+    background-position: top;
+    background-repeat: repeat;
+    background-size: 100%;
+    background-image: url(../images/01-pitkn-images/pitkn-header-image.png);
+}
+
 .pr3-parallax-contain {
     height: 100vh;
     z-index: -1;
