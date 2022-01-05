@@ -4,26 +4,30 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="../images/favicon.ico" type="image/x-icon">  
+    <link rel="shortcut icon" href="../images/favicon.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&family=Work+Sans:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&family=Work+Sans:wght@300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="../css/html5reset.css">
     <link rel="stylesheet" type="text/css" href="../css/style.css">
     <link rel="stylesheet" type="text/css" href="../css/style-tablet.css">
     <link rel="stylesheet" type="text/css" href="../css/style-laptop.css">
     <link rel="stylesheet" type="text/css" href="../css/nav.css">
     <link rel="stylesheet" type="text/css" href="../css/style-reduced-motion.css">
-    <title>Strescape | Anuya Karnik</title>
-     <!-- Using Chevrons and Icons from Font Awesome -->
-     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
-     integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
-     crossorigin="anonymous" />
+    <title>PIT Knowledge Network | Anuya Karnik</title>
+    <!-- Scroll Reveal -->
+    <script src="https://unpkg.com/scrollreveal@4"></script>
+    <!-- Using Chevrons and Icons from Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+        crossorigin="anonymous" />
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-7ZYPYV8TTM"></script>
     <script src="../scripts/gtag.js"></script>
     <script src="../scripts/script.js" defer></script>
-
 </head>
 
 <body>
@@ -47,6 +51,21 @@
         </nav>
     </header>
     <main id="main">
+        <span class="progress-finder"></span>
+        <div class="pr-topics">
+            <a href="#pr-header" aria-label="PITKN"><span class="topic-block"></span></a>
+            <a href="#pr-section1" aria-label="PITKN"><span class="topic-block"></span></a>
+            <a href="#pr-section2" aria-label="PITKN"><span class="topic-block"></span></a>
+            <a href="#pr-section3" aria-label="PITKN"><span class="topic-block"></span></a>
+            <a href="#pr-section4" aria-label="PITKN"><span class="topic-block"></span></a>
+            <a href="#pr-section5" aria-label="PITKN"><span class="topic-block"></span></a>
+            <a href="#pr-section6" aria-label="PITKN"><span class="topic-block"></span></a>
+            <a href="#pr-section7" aria-label="PITKN"><span class="topic-block"></span></a>
+            <a href="#pr-section8" aria-label="PITKN"><span class="topic-block"></span></a>
+            <a href="#pr-section9" aria-label="PITKN"><span class="topic-block"></span></a>
+            <a href="#pr-section10" aria-label="PITKN"><span class="topic-block"></span></a>
+        </div>
+        <div id="opt-in-animation" class="pr4-parallax-contain"> </div>
         <div class="project">
             <div class="pr-a color-b">
                 <div class="pr-text">
@@ -54,13 +73,23 @@
                     <p>Strescape is a game designed for high school students to recognize and process the factors
                         causing stress while providing an interactive gaming experience. The player works through a
                         series of puzzles and clues similar to an escape room setting with guided mindfulness chats
-                        between each puzzle with the game agent. ​</p>
-                        <a class="ex-link" target="_blank" href="https://xd.adobe.com/view/bc4f664a-4353-4d4d-b126-ccadbffac9f6-e91c/"
-                        aria-label="external link to strescape prototype">
-                        TRY THE STRESCAPE PROTOTYPE HERE
-                    </a>
+                        between each puzzle with the game agent.</p>
                 </div>
-                
+                <div class="pr-about-grid">
+                    <div class="pr-about info"><i class="fas fa-users"></i> Team Project for the CHI 2020 Student Game
+                        Competition</div>
+                    <div class="pr-about time"><i class="far fa-clock"></i> 4 Months</div>
+                    <div class="pr-about tools"><i class="far fa-edit"></i> Adobe Illustrator, Premier and XD
+                    </div>
+                    <div class="pr-about domain"><i class="fas fa-mobile-alt"></i> UX Research and Design, Mobile App
+                        Design, Game Design
+                    </div>
+                </div>
+            </div>
+            <div class="pr-a color-a">
+                <a class="ex-link" href="#final-prototype">Jump to the Interactive Prototype <i
+                        class="fas fa-chevron-down"></i>
+                </a>
             </div>
         </div>
         <div class="pr-a">
@@ -84,7 +113,8 @@
             </div>
             <div class="pr-img">
                 <figure>
-                    <img class="white-bg" src="../images/02-str-images/str-overview3.jpg" alt="Project Overview - Strescape">
+                    <img class="white-bg" src="../images/02-str-images/str-overview3.jpg"
+                        alt="Project Overview - Strescape">
                     <figcaption>Project Overview</figcaption>
                 </figure>
             </div>
@@ -227,11 +257,6 @@
                     Along with the high-fidelity prototype, we also submitted a gameplay video where our prototype was
                     tested by two users which I will be adding soon! Until then, you can try out the game here:
                 </p>
-                <a class="ex-link" target="_blank" href="https://xd.adobe.com/view/bc4f664a-4353-4d4d-b126-ccadbffac9f6-e91c/"
-                        aria-label="external link to strescape prototype">
-                        TRY THE STRESCAPE PROTOTYPE HERE
-                    </a>
-                <!-- TODO: ADD AN INTERESTING FINAL PROTOTYPE IMAGE -->
             </div>
         </div>
 
@@ -240,9 +265,12 @@
     <footer>
         <p>Thank you so much for checking out my portfolio!</p>
         <div class="social-icons">
-            <a aria-label="Link to LinkedIn" target="blank" href="https://www.linkedin.com/in/anuya-karnik/"><i class="fab fa-linkedin"></i></a>
-            <a aria-label="Link to Email" target="blank" href="mailto:aakarnik8@gmail.com"><i class="fas fa-envelope"></i></a>
-            <a aria-label="Link to GitHub" target="blank" href="https://github.com/anuya-karnik"><i class="fab fa-github"></i></a>            
+            <a aria-label="Link to LinkedIn" target="blank" href="https://www.linkedin.com/in/anuya-karnik/"><i
+                    class="fab fa-linkedin"></i></a>
+            <a aria-label="Link to Email" target="blank" href="mailto:aakarnik8@gmail.com"><i
+                    class="fas fa-envelope"></i></a>
+            <a aria-label="Link to GitHub" target="blank" href="https://github.com/anuya-karnik"><i
+                    class="fab fa-github"></i></a>
         </div>
         <p>© Anuya Karnik 2021</p>
     </footer>

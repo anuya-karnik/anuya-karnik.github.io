@@ -48,15 +48,10 @@ https://www.freecodecamp.org/news/css-media-queries-breakpoints-media-types-stan
     /*PARALLAX IMAGE
     /*--------------------------------*/
 
-    .pr3-parallax-contain {
-        height: 40vh;
-    }
-
-    .pr2-parallax-contain {
-        height: 40vh;
-    }
-
-    .pr1-parallax-contain {
+    .pr1-parallax-contain,
+    .pr2-parallax-contain,
+    .pr3-parallax-contain,
+    .pr4-parallax-contain{
         height: 40vh;
     }
 

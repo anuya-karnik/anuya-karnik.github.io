@@ -112,6 +112,9 @@
     .card-back {
         grid-template-columns: 1fr;
     }
+    .pr4-parallax-contain {
+        height: 65vh;
+    }
     .pr3-parallax-contain {
         height: 75vh;
     }
