@@ -102,6 +102,10 @@ https://www.freecodecamp.org/news/css-media-queries-breakpoints-media-types-stan
         padding: 35px 90px 20px 65px;
     }
 
+    .pr-grid-item {
+        margin: 0px 10px;
+    }
+
 
     .pr-about-grid {
         display: grid;
