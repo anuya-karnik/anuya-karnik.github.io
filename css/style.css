@@ -22,9 +22,9 @@ body {
     --claret: #83213bff;
     --midnight-blue: #001d74ff;
     --cornflower-blue: #7f95d1ff;
-    --light-gray: #e4e4e4ff;
-    --davys-grey: #474a48ff;
-    --gray-shadow: rgba(207, 207, 207, 0.5);
+    --light-gray: rgba(220, 234, 238, 0.514);;
+    --davys-grey: rgb(48, 73, 77);
+    --gray-shadow: rgba(122, 183, 211, 0.2);
 }
 
 /*--------------------------------*/
@@ -103,7 +103,7 @@ label {
     font-size: 14px;
     line-height: 26px;
     font-weight: 500;
-    color: midnightblue;
+    color: var(--midnight-blue);
 }
 
 figcaption {
@@ -213,7 +213,7 @@ strong {
 
 .pr-grid-item h2 {
     padding: 10px;
-    background-color: midnightblue;
+    background-color: #753192;
     border-radius: 10px 10px 0 0;
     color: white;
 }
