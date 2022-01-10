@@ -10,6 +10,18 @@ https://www.freecodecamp.org/news/css-media-queries-breakpoints-media-types-stan
 
 @media screen and (min-width: 641px) {
 
+    * {
+        box-sizing: border-box;
+        /* border: 1px solid black; */
+        /*Website Color Palette*/
+        --claret: #83213bff;
+        --midnight-blue: rgb(7, 32, 80);
+        --cornflower-blue: rgb(122, 164, 202);
+        --light-gray: rgba(220, 234, 238, 0.514);;
+        --davys-grey: rgb(48, 73, 77);
+        --gray-shadow: rgba(122, 183, 211, 0.275);
+    }
+
     /* -------------------------------- */
     /* BASIC STYLING*/
     /*--------------------------------*/
@@ -107,13 +119,13 @@ https://www.freecodecamp.org/news/css-media-queries-breakpoints-media-types-stan
     }
 
     .topic-block:hover {
-        background-color: cornflowerblue;
+        background-color: var(--cornflower-blue);
         width: 16px;
         height: 16px;
     }
 
     .block-active {
-        background-color: cornflowerblue;
+        background-color: var(--cornflower-blue);
         width: 16px;
         height: 16px;
     }

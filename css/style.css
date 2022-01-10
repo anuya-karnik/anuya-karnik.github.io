@@ -21,7 +21,7 @@ body {
     /*Website Color Palette*/
     --claret: #83213bff;
     --midnight-blue: rgb(7, 32, 80);
-    --cornflower-blue: #7f95d1ff;
+    --cornflower-blue: rgb(122, 164, 202);
     --light-gray: rgba(220, 234, 238, 0.514);;
     --davys-grey: rgb(48, 73, 77);
     --gray-shadow: rgba(122, 183, 211, 0.275);
@@ -159,7 +159,7 @@ strong {
 }
 
 .ex-link:hover {
-    color: cornflowerblue;
+    color: var(--cornflower-blue);
 }
 
 /*---------------------------------------------*/
