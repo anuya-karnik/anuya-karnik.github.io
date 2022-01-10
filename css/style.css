@@ -20,7 +20,7 @@ body {
     /* border: 1px solid black; */
     /*Website Color Palette*/
     --claret: #83213bff;
-    --midnight-blue: #001d74ff;
+    --midnight-blue: rgb(7, 32, 80);
     --cornflower-blue: #7f95d1ff;
     --light-gray: rgba(220, 234, 238, 0.514);;
     --davys-grey: rgb(48, 73, 77);
