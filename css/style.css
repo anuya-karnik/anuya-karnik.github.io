@@ -22,9 +22,9 @@ body {
     --claret: #83213bff;
     --midnight-blue: #001d74ff;
     --cornflower-blue: #7f95d1ff;
-    --light-gray: #e4e4e4ff;
-    --davys-grey: #474a48ff;
-    --gray-shadow: rgba(207, 207, 207, 0.5);
+    --light-gray: rgba(220, 234, 238, 0.514);;
+    --davys-grey: rgb(48, 73, 77);
+    --gray-shadow: rgba(122, 183, 211, 0.2);
 }
 
 /*--------------------------------*/
@@ -103,7 +103,7 @@ label {
     font-size: 14px;
     line-height: 26px;
     font-weight: 500;
-    color: midnightblue;
+    color: var(--midnight-blue);
 }
 
 figcaption {
@@ -198,8 +198,32 @@ strong {
     /* grid-template-columns: auto auto; */
 }
 
+.pr-grid-item {
+    background-color: white;
+    box-sizing: border-box;
+    position: relative;
+    /* min-height: 250px; */
+    max-height: fit-content;
+    padding-bottom: 10px;
+    width: auto;
+    border-radius: 10px;
+    /* text-align: center; */
+    box-shadow: 2px 5px 20px 2px rgba(180, 180, 180, 0.89);
+}
+
+.pr-grid-item h2 {
+    padding: 10px;
+    background-color: #753192;
+    border-radius: 10px 10px 0 0;
+    color: white;
+}
+
 .color-a {
     background-color: var(--light-gray);
+}
+
+.color-a h3 {
+    color: var(--midnight-blue);
 }
 
 .color-b, .color-b p, .color-b li {
@@ -517,6 +541,16 @@ input[type=submit]:hover {
     background-image: url(../images/03-axd-images/axd-day-5.png);
 }
 
+.pr4-parallax-contain {
+    height: 20vh;
+    z-index: -1;
+    background-attachment: fixed;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-image: url(../images/02-str-images/strescape-header-image-slant.png);
+}
+
 #opt-out-animation {
     display: none;
 }
@@ -636,6 +670,7 @@ html.sr .load-hidden {
     0% {
         opacity: 0;
     }
+
     100% {
         opacity: 1;
     }
