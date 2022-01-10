@@ -24,7 +24,7 @@ body {
     --cornflower-blue: #7f95d1ff;
     --light-gray: rgba(220, 234, 238, 0.514);;
     --davys-grey: rgb(48, 73, 77);
-    --gray-shadow: rgba(122, 183, 211, 0.2);
+    --gray-shadow: rgba(122, 183, 211, 0.089);
 }
 
 /*--------------------------------*/
@@ -485,21 +485,28 @@ input[type=submit]:hover {
 }
 
 .index-header {
-    background-color: var(--midnight-blue);
-    color: white;
+    display: flex;
+    flex-direction: column;
+    color: black;
+    height: 70vh;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 }
 
-.headline {
-    margin: 0 10px;
-    padding: 10px;
-    font-size: 16px;
-    line-height: 32px;
+.index-header>h1 {
+    color: var(--davys-grey);
+    text-shadow: 5px 5px 5px var(--gray-shadow);
 }
 
-.headline>h2 {
+.index-header>h2 {
     font-family: 'Work Sans';
-    color: white;
-    font-weight: 300;
+    color: var(--davys-grey);
+    font-weight: 400;
+}
+
+.index-header a{
+    color: inherit;
 }
 
 /*--------------------------------*/

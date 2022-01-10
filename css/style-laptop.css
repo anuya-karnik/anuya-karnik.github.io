@@ -29,10 +29,18 @@
         font-size: 30px;
         color: var(--davys-grey);
     }
-    /* STYLING FOR HOMEPAGE PAGE GRID  */
-    .headline {
-        margin: 0 180px;
+
+    /* STYLING FOR HOMEPAGE HEADLINE */
+    .index-header {
+        margin: 0 200px;
+        height: 50vh;
     }
+
+    .index-header h1 {
+        font-size: 36px;
+    }
+
+    /* STYLING FOR HOMEPAGE PAGE GRID  */
     .grid-layout-1 {
         grid-template-columns: 1fr 1fr;
         row-gap: 40px;
