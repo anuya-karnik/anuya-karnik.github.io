@@ -1,7 +1,9 @@
 //Animation for Home
 ScrollReveal().reveal('.grid-item', {interval: 50, origin:'bottom', distance: '10px', easing: 'ease-in'});
 ScrollReveal().reveal('.index-header', {interval: 100, origin:'left', distance: '5px', easing: 'ease-in'});
-
+ScrollReveal().reveal('.about-header', {interval: 100, origin:'left', distance: '5px', easing: 'ease-in'});
+ScrollReveal().reveal('.about-item', {interval: 100, origin:'right', distance: '15px', easing: 'ease-in'});
+ScrollReveal().reveal('.gallery-img', {interval: 100, origin:'bottom', distance: '15px', easing: 'ease-in'});
 /**********
 IMAGE MODALS
 ***********/

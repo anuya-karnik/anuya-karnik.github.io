@@ -4,22 +4,24 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">  
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&family=Work+Sans:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&family=Work+Sans:wght@300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/html5reset.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="stylesheet" type="text/css" href="css/style-tablet.css">
     <link rel="stylesheet" type="text/css" href="css/style-laptop.css">
     <link rel="stylesheet" type="text/css" href="css/nav.css">
     <link rel="stylesheet" type="text/css" href="css/style-reduced-motion.css">
-     <!-- Scroll Reveal -->
+    <!-- Scroll Reveal -->
     <script src="https://unpkg.com/scrollreveal@4"></script>
-     <!-- Using Chevrons and Icons from Font Awesome -->
-     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
-     integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
-     crossorigin="anonymous" />
+    <!-- Using Chevrons and Icons from Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+        crossorigin="anonymous" />
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-7ZYPYV8TTM"></script>
     <script src="scripts/gtag.js"></script>
@@ -35,7 +37,7 @@
             <a href="index.html">Portfolio</a>
             <a class="current" href="about.html">About</a>
             <!-- <a href="contact.html">Contact</a> -->
-            <a href="gallery.html">Art Gallery</a>
+            <!-- <a href="gallery.html">Art Gallery</a> -->
             <a target="blank"
                 href="https://drive.google.com/file/d/1y6Y-QjMpvZt96NdVadiZ5-5ylfQ2IS4w/view?usp=sharing">Resume
                 <i class="fas fa-external-link-alt"></i>
@@ -44,20 +46,19 @@
     </header>
     <main id="main">
 
-        <div id="about-section" class="about-page">
+        <div id="about-section" class="about-header">
             <div class="pr-a">
                 <img class="image-crop" src="images/00-about/Profile Picture_1.jpg"
                     alt="Anuya Karnik - Profile Picture">
-
                 <div class="pr-text">
                     <h1>About Me</h1>
-                    <h2>Hi there! I am Anuya, a passionate programmer and visual designer on my journey of learning and
+                    <h2>I am Anuya Karnik, a passionate programmer and visual designer on my journey of learning and
                         innovating in the field of Human-Computer Interaction.</h2>
                 </div>
             </div>
         </div>
         <div class="pr-a">
-            <h2 class="about-h2">Education</h2>
+            <h1>Education</h1>
             <div class="about-layout">
                 <div class="about-item">
                     <div class="grid-item-1 logo-image">
@@ -69,20 +70,51 @@
                         <h4>Studying HCI, User Experience Research and Design </h4>
                     </div>
                 </div>
-    
                 <div class="about-item">
                     <div class="grid-item-1 logo-image">
                         <img id="edu-1" src="images/00-about/AndrewsUniversity.svg" alt="Andrews University Logo">
                     </div>
                     <div class="grid-item-1">
                         <h3>B.S, Computer Science</h3>
-                        <h4>August 2016 - May 2020</h3>
-                            <h4>Minors in Graphic Design, Mathematics and Leadership</h4>
+                        <h4>August 2016 - May 2020</h4>
+                        <h4>Minors in Graphic Design, Mathematics and Leadership</h4>
                     </div>
                 </div>
             </div>
 
-            <h2 class="about-h2">Random Fun Facts About Me</h2>
+        </div>
+
+        <div class="project">
+            <div class="pr-a color-a">
+                <div class="pr-text">
+                    <h1>Gallery</h1>
+                    <p> I love to paint! And this is a collection of my favorite artworks I painted over the years in various different media such as
+                        oil, watercolor, and gouache. Art keeps me creative and connected to my Indian heritage and
+                        culture!</p>
+                </div>
+            </div>
+            <div oncontextmenu="return false;" class="gallery-section">
+                <div class="gallery-col">
+                    <img class = "gallery-img" src="images/00-gallery/gallery-blue-ganesh.jpg" alt="Blue Ganesh Painting">
+                    <img class = "gallery-img" src="images/00-gallery/gallery-nutan.jpg" alt="Painting of Actress Nutan">
+                    <img class = "gallery-img" src="images/00-gallery/gallery-oil-sunset.jpg" alt="Sunset By A River">
+                    <img class = "gallery-img" src="images/00-gallery/gallery-tulip-pink.jpg" alt="Pink Tulip">
+                    <img class = "gallery-img" src="images/00-gallery/gallery-spring.jpg" alt="Spring Painting">
+                    <img class = "gallery-img" src="images/00-gallery/gallery-tulip-pink-zoom.jpg" alt="Pink Tulip Closeup">
+                </div>
+                <div class="gallery-col">
+                    <img class = "gallery-img" src="images/00-gallery/gallery-dance.jpg" alt="Rhythms of India - Art Piece in Graphite">
+                    <img class = "gallery-img" src="images/00-gallery/gallery-mandala.jpg" alt="Colors of India - Mandala">
+                    <img class = "gallery-img" src="images/00-gallery/gallery-evening.jpg" alt="Evening Sky Painting">
+                    <img class = "gallery-img" src="images/00-gallery/gallery-vyajanthimala.jpg" alt="Painting of Actress Vyajayanthimala">
+                    <img class = "gallery-img" src="images/00-gallery/gallery-fruit.jpg" alt="Fruits Painting">
+                    <img class = "gallery-img" src="images/00-gallery/gallery-sunset.jpg" alt="Sunset Painting in Gouache">
+                </div>
+            </div>
+        </div>
+
+        <div class="pr-a">
+            <h1>Here Are Some Random Fun Facts About Me... </h1>
             <div class="cards-layout">
                 <div class="card-container card-item">
                     <div id="card-1" class="card-body">
@@ -100,7 +132,7 @@
                         </div>
                     </div>
                 </div>
-    
+
                 <div class="card-container card-item">
                     <div id="card-2" class="card-body">
                         <div class="card-front">
@@ -117,7 +149,7 @@
                         </div>
                     </div>
                 </div>
-    
+
                 <div class="card-container card-item">
                     <div id="card-3" class="card-body">
                         <div class="card-front">
@@ -130,24 +162,24 @@
                                 <h3>Adobe XD</h3>
                                 <h4>Just love it for the amazing plugins and microinteractions!</h4>
                             </div>
-    
+
                         </div>
                     </div>
                 </div>
-    
+
             </div>
         </div>
-       
-
-       
 
     </main>
     <footer>
         <p>Thank you so much for checking out my portfolio!</p>
         <div class="social-icons">
-            <a aria-label="Link to LinkedIn" target="blank" href="https://www.linkedin.com/in/anuya-karnik/"><i class="fab fa-linkedin"></i></a>
-            <a aria-label="Link to Email" target="blank" href="mailto:aakarnik8@gmail.com"><i class="fas fa-envelope"></i></a>
-            <a aria-label="Link to GitHub" target="blank" href="https://github.com/anuya-karnik"><i class="fab fa-github"></i></a>            
+            <a aria-label="Link to LinkedIn" target="blank" href="https://www.linkedin.com/in/anuya-karnik/"><i
+                    class="fab fa-linkedin"></i></a>
+            <a aria-label="Link to Email" target="blank" href="mailto:aakarnik8@gmail.com"><i
+                    class="fas fa-envelope"></i></a>
+            <a aria-label="Link to GitHub" target="blank" href="https://github.com/anuya-karnik"><i
+                    class="fab fa-github"></i></a>
         </div>
         <p>© Anuya Karnik 2021</p>
     </footer>

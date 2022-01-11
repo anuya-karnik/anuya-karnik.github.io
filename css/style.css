@@ -422,25 +422,26 @@ input[type=submit]:hover {
 
 /*--------------------------------*/
 
-#about-section {
+.about-header {
+    display: flex;
+    height: 90vh ;
     text-align: center;
+    align-items: center;
 }
-
 .image-crop {
     width: 150px;
     height: 150px;
     margin: 0 10px;
     object-fit: cover;
-    border-radius: 10px;
-    box-shadow: 2px 5px 20px 2px rgba(190, 190, 190, 0.89);
+    border-radius: 100%;
+    box-shadow: 2px 5px 20px 2px var(--light-gray)
 }
 
 #edu-1 {
     width: 60%;
-    margin: 20px;
 }
 
-.about-page h2 {
+.about-header h2 {
     color: var(--davys-grey);
     padding: 5px 10px;
     font-size: 16px;
@@ -448,22 +449,32 @@ input[type=submit]:hover {
     font-weight: 500;
 }
 
+.abt-item-div {
+    display: flex;
+    background-color: var(--light-gray);
+    width: 2px;
+    height: 100%;
+    align-self: center;
+}
+
 .about-item {
+    display: grid;
+    flex-direction: column;
     box-sizing: border-box;
     position: relative;
-    min-height: 250px;
+    min-height: 100px;
     max-height: fit-content;
     padding-bottom: 10px;
     width: auto;
     border-radius: 10px;
-    text-align: center;
-    box-shadow: 2px 5px 20px 2px rgba(180, 180, 180, 0.89);
+    /* text-align: center; */
+    /* box-shadow: 2px 5px 20px 2px rgba(180, 180, 180, 0.89); */
 }
 
 .about-item h3 {
     font-family: 'Merriweather';
     color: var(--midnight-blue);
-    padding: 5px 10px;
+    padding: 5px 0px;
     font-size: 16px;
     line-height: 32px;
     font-weight: 700;
@@ -471,13 +482,13 @@ input[type=submit]:hover {
 
 .about-item h4 {
     color: var(--davys-grey);
-    padding: 2px 0px;
+    padding: 0px 0px;
     font-size: 14px;
     line-height: 32px;
     font-weight: 500;
 }
 
-.about-page h1 {
+.about-header h1 {
     padding: 5px 10px;
     font-size: 20px;
     line-height: 45px;
