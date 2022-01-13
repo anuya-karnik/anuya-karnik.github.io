@@ -448,6 +448,10 @@ input[type=submit]:hover {
     font-weight: 500;
 }
 
+.about-header a{
+    color: inherit;
+}
+
 .abt-item-div {
     display: flex;
     background-color: var(--azure-gray);
