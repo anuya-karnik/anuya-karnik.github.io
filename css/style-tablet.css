@@ -86,7 +86,8 @@ https://www.freecodecamp.org/news/css-media-queries-breakpoints-media-types-stan
     .pr1-parallax-contain,
     .pr2-parallax-contain,
     .pr3-parallax-contain,
-    .pr4-parallax-contain {
+    .pr4-parallax-contain,
+    .pr5-parallax-contain {
         height: 40vh;
     }
 

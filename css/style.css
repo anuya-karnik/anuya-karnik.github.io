@@ -572,6 +572,16 @@ input[type=submit]:hover {
     background-image: url(../images/02-str-images/strescape-header-image-slant.png);
 }
 
+.pr5-parallax-contain {
+    height: 20vh;
+    z-index: -1;
+    background-attachment: fixed;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-image: url(../images/07-meatfreed/meatfreed_header.png);
+}
+
 #opt-out-animation {
     display: none;
 }
