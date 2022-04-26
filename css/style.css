@@ -217,6 +217,10 @@ strong {
     color: white;
 }
 
+.bg-meatfreed {
+    background-color: #54909D !important;
+}
+
 .color-a {
     background-color: var(--azure-gray);
 }
