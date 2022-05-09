@@ -148,7 +148,7 @@ strong {
     text-align: center;
     display: block;
     margin: 0 auto;
-    color: white;
+    color: var(--oxford-blue);
     font-size: 12px;
     padding: 0 10px;
     font-size: 14px;
@@ -158,7 +158,7 @@ strong {
 }
 
 .ex-link:hover {
-    color: var(--azure-gray);
+    color: var(--iceberg);
 }
 
 /*---------------------------------------------*/
