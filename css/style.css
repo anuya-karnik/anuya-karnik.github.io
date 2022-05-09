@@ -161,6 +161,10 @@ strong {
     color: var(--iceberg);
 }
 
+.color-c .ex-link:hover {
+    color: white;
+}
+
 /*---------------------------------------------*/
 
 /* PROJECT TEXT AND IMAGE SECTIONS
