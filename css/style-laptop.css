@@ -44,9 +44,17 @@
     .grid-layout-1 {
         grid-template-columns: 1fr 1fr;
         row-gap: 40px;
-        margin: 20px 100px;
+        margin: 20px 170px;
     }
+
+    /* STYLING FOR HOME PAGE SECTION */
+
+    .hm-a {
+        padding: 25px 200px;
+    }
+
     /* STYLING FOR PROJECT PAGE  */
+
     .pr-a {
         padding: 25px 200px;
     }
@@ -139,11 +147,30 @@
         height: 65vh;
     }
     /* STYLING FOR ABOUT PAGE GRID  */
-    .about-header>.pr-a {
-        display: grid;
-        grid-template-columns: 1fr 6fr;
-        margin-left: 0;
+
+    .about-header {
+        flex-direction: row;
+        justify-content: top;
+        align-items: center;
+        padding-bottom: 100px;
     }
+
+    .about-header h1 {
+        text-align: left;
+    }
+    .about-header h2 {
+        text-align: left;
+    }
+
+    .about-header .pr-text {
+        padding-left: 72px;
+    }
+
+    .image-crop {
+        border-radius: 0;
+        height: 100%;
+    }
+
     .modal-content {
         max-width: auto;
         max-height: 80vh;
