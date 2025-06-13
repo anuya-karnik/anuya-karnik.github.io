@@ -100,11 +100,11 @@ header {
 
 @media screen and (min-width: 1024px) {
     .menu-title {
-        margin-left: 150px;
+        margin-left: 50px;
     }
 
     .menu-links {
-        margin-right: 145px;
+        margin-right: 45px;
     }
 
 }
