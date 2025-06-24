@@ -37,7 +37,7 @@ https://www.freecodecamp.org/news/css-media-queries-breakpoints-media-types-stan
         line-height: 30px;
     }
 
-    ul {
+    ol, ul {
         font-size: 15px;
         padding: 5px 10px;
         line-height: 30px;
@@ -83,6 +83,7 @@ https://www.freecodecamp.org/news/css-media-queries-breakpoints-media-types-stan
     /*PARALLAX IMAGE
     /*--------------------------------*/
 
+    .pr0-parallax-contain,
     .pr1-parallax-contain,
     .pr2-parallax-contain,
     .pr3-parallax-contain,
