@@ -147,6 +147,7 @@
         height: 65vh;
     }
     .pr0-parallax-contain {
+        background-size: 100%;
         height: 65vh;
     }
     /* STYLING FOR ABOUT PAGE GRID  */
