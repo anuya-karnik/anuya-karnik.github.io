@@ -40,6 +40,10 @@ h1 {
     font-weight: 500;
 }
 
+.hm-a h1 {
+    color: var(--charcoal);
+}
+
 h2 {
     font-family: 'Merriweather', 'Arial', sans-serif;
     padding: 5px 10px;
